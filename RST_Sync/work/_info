@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/Courses/CDC/Assignments/Ass_1.2/sol
+vRST_Sync
+Z1 !s110 1658428098
+!i10b 1
+!s100 hADC1@Xe=VXB_A1CO6_`G3
+IAf0a_QzQ_Xd^f]5HXbdM63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658428070
+8RST_Sync.v
+FRST_Sync.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1658428098.000000
+Z5 !s107 RST_Sync_tb.v|RST_Sync.v|
+Z6 !s90 RST_Sync.v|RST_Sync_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+n@r@s@t_@sync
+vRST_Sync_tb
+R1
+!i10b 1
+!s100 KdVT1^MbUDm;d`1jd;eE=0
+I]L;ZYg@9fj_gG>=^:a=jF0
+R2
+R0
+w1658428095
+8RST_Sync_tb.v
+FRST_Sync_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@r@s@t_@sync_tb

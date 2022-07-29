@@ -1,0 +1,141 @@
+$date
+	Thu Jul 21 20:23:22 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Data_Sync_tb $end
+$var parameter 32 ! NUM_STAGES_tb $end
+$var parameter 32 " BUS_WIDTH_tb $end
+$var parameter 32 # CLK_PERIOD $end
+$var reg 8 $ Unsync_bus_tb [7:0] $end
+$var reg 1 % bus_enable_tb $end
+$var reg 1 & RST_tb $end
+$var reg 1 ' CLK_tb $end
+$var wire 1 ( enable_pulse_tb $end
+$var wire 1 ) Sync_bus_tb [7] $end
+$var wire 1 * Sync_bus_tb [6] $end
+$var wire 1 + Sync_bus_tb [5] $end
+$var wire 1 , Sync_bus_tb [4] $end
+$var wire 1 - Sync_bus_tb [3] $end
+$var wire 1 . Sync_bus_tb [2] $end
+$var wire 1 / Sync_bus_tb [1] $end
+$var wire 1 0 Sync_bus_tb [0] $end
+
+$scope module DUT $end
+$var parameter 32 1 NUM_STAGES $end
+$var parameter 32 2 BUS_WIDTH $end
+$var wire 1 3 Unsync_bus [7] $end
+$var wire 1 4 Unsync_bus [6] $end
+$var wire 1 5 Unsync_bus [5] $end
+$var wire 1 6 Unsync_bus [4] $end
+$var wire 1 7 Unsync_bus [3] $end
+$var wire 1 8 Unsync_bus [2] $end
+$var wire 1 9 Unsync_bus [1] $end
+$var wire 1 : Unsync_bus [0] $end
+$var wire 1 ; bus_enable $end
+$var wire 1 < RST $end
+$var wire 1 = CLK $end
+$var reg 1 > enable_pulse $end
+$var reg 8 ? Sync_bus [7:0] $end
+$var reg 2 @ register [1:0] $end
+$var reg 1 A enable_out $end
+$var wire 1 B And_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+0%
+0&
+0'
+0>
+b0 ?
+b0 @
+0A
+b10 !
+b1000 "
+b1100100 #
+b10 1
+b1000 2
+0(
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0B
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+$end
+#50000
+1'
+1=
+#70000
+1&
+b11001010 $
+19
+17
+14
+13
+1<
+#100000
+0'
+1%
+1;
+0=
+#150000
+1'
+1=
+b1 @
+#200000
+0'
+0=
+#250000
+1'
+1=
+b11 @
+1B
+#300000
+0'
+0=
+#350000
+1'
+1=
+1A
+1>
+b11001010 ?
+0B
+1(
+1/
+1-
+1*
+1)
+#400000
+0'
+0=
+#450000
+1'
+1=
+0>
+0(
+#500000
+0'
+0=

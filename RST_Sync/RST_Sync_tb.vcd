@@ -1,0 +1,140 @@
+$date
+	Thu Jul 21 20:28:33 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module RST_Sync_tb $end
+$var parameter 32 ! NUM_STAGES_tb $end
+$var parameter 32 " CLK_PERIOD $end
+$var reg 1 # RST_tb $end
+$var reg 1 $ CLK_tb $end
+$var wire 1 % Sync_RST_tb $end
+
+$scope module DUT $end
+$var parameter 32 & NUM_STAGES $end
+$var wire 1 ' RST $end
+$var wire 1 ( CLK $end
+$var reg 1 ) Sync_RST $end
+$var reg 2 * register [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1#
+0$
+x)
+bx *
+b10 !
+b1100100 "
+b10 &
+x%
+0(
+1'
+$end
+#50000
+1$
+1(
+bx1 *
+#100000
+0$
+0(
+#150000
+1$
+1(
+b11 *
+#200000
+0$
+0(
+#250000
+1$
+1(
+1)
+1%
+#300000
+0$
+0(
+#350000
+1$
+1(
+#370000
+0#
+0'
+b0 *
+0)
+0%
+#400000
+0$
+0(
+#410000
+1#
+1'
+#450000
+1$
+1(
+b1 *
+#500000
+0$
+0(
+#550000
+1$
+1(
+b11 *
+#600000
+0$
+0(
+#650000
+1$
+1(
+1)
+1%
+#700000
+0$
+0(
+#750000
+1$
+1(
+#800000
+0$
+0(
+#850000
+1$
+1(
+#900000
+0$
+0(
+#950000
+1$
+1(
+#1000000
+0$
+0(
+#1050000
+1$
+1(
+#1100000
+0$
+0(
+#1150000
+1$
+1(
+#1200000
+0$
+0(
+#1250000
+1$
+1(
+#1300000
+0$
+0(
+#1350000
+1$
+1(
+#1400000
+0$
+0(

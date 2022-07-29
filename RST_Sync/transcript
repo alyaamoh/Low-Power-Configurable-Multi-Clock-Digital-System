@@ -1,0 +1,39 @@
+# ERROR: No extended dataflow license exists
+# vsim work.RST_Sync_tb 
+# Start time: 20:28:27 on Jul 21,2022
+# Loading work.RST_Sync_tb
+# Loading work.RST_Sync
+run
+run
+run
+# 
+# 
+# TEST CASE 0
+# 
+# Passed
+# 
+run
+run
+# 
+# 
+# TEST CASE 1
+# 
+# Passed
+# 
+run
+run
+# 
+# 
+# TEST CASE 2
+# 
+# Passed
+# 
+run
+run
+run
+run
+run
+run
+run
+# End time: 20:28:44 on Jul 21,2022, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
