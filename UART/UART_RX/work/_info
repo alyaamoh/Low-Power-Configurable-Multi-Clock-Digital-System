@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/UART/UART_RX
+vdeserializer
+Z1 !s110 1658761371
+!i10b 1
+!s100 UMOKa9:4_mn2fkH8e:g>o0
+IkZ]hDo0?aAJcPPP2UEf]42
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658756858
+8deserializer.v
+Fdeserializer.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1658761371.000000
+Z5 !s107 UART_RX.V|strt_check.v|stop_check.v|parity_check.v|FSM.v|edge_bit_counter.v|deserializer.v|data_sampling.v|
+Z6 !s90 data_sampling.v|deserializer.v|edge_bit_counter.v|FSM.v|parity_check.v|stop_check.v|strt_check.v|UART_RX.V|
+!i113 1
+Z7 tCvgOpt 0
+vedge_bit_counter
+R1
+!i10b 1
+!s100 ImofOUC>H3ZVRh_3RALg_0
+I]nP:^Qa4=e3P9m9FYbI]T0
+R2
+R0
+w1658761278
+8edge_bit_counter.v
+Fedge_bit_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vparity_check
+R1
+!i10b 1
+!s100 ?Y6:6Bnh[g7g<zgTT5dca2
+IS:Q0SOScnEb3XhiJ<UH743
+R2
+R0
+w1658761368
+8parity_check.v
+Fparity_check.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vstop_check
+R1
+!i10b 1
+!s100 RN7C6fL:[mg0b;KkTedD=1
+ILWRGoiIFjb`l?OB;EAB6T3
+R2
+R0
+w1658756177
+8stop_check.v
+Fstop_check.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vstrt_check
+R1
+!i10b 1
+!s100 4M[o:4lJ36KIVYZRMXe;m2
+I]gM12DD>1`jaCBP:9eo4A0
+R2
+R0
+w1658755705
+8strt_check.v
+Fstrt_check.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

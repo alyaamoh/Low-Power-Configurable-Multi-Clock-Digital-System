@@ -1,0 +1,96 @@
+# ERROR: No extended dataflow license exists
+# vsim work.UART_TX_tb 
+# Start time: 18:02:18 on Jul 08,2022
+# Loading work.UART_TX_tb
+# Loading work.UART_TX
+# Loading work.MUX
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.FSM
+run
+run
+# Busy Flag 0
+# 
+# 
+# TEST CASE 1
+run
+# Busy Flag 1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Busy Flag 0
+run
+run
+run
+run
+run
+run
+# 
+# Passed
+# 
+run
+# 
+# 
+# TEST CASE 2
+run
+# Busy Flag 1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Busy Flag 0
+run
+run
+run
+run
+run
+run
+# 
+# Passed
+# 
+run
+# 
+# 
+# TEST CASE 3
+run
+# Busy Flag 1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Busy Flag 0
+run
+run
+run
+run
+run
+run
+run
+# 
+# Passed
+# 
+run
+run
+run
+run
+run
+# End time: 18:04:10 on Jul 08,2022, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 0

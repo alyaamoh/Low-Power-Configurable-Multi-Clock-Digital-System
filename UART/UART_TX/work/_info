@@ -1,0 +1,134 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/gam3a/courses/digital electronics/System/RTL/UART/UART_TX
+vFSM
+Z1 !s110 1657296125
+!i10b 1
+!s100 j@m5UDRiV3H_mb`BAjeCM1
+IhGF<]8HcBC31JUzfNfNJ93
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657294849
+8FSM.v
+FFSM.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1657296125.000000
+Z5 !s107 UART_TX_tb.v|UART_TX.v|serializer.v|parity_calc.v|MUX.v|FSM.v|
+Z6 !s90 FSM.v|MUX.v|parity_calc.v|serializer.v|UART_TX.v|UART_TX_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+n@f@s@m
+vMUX
+R1
+!i10b 1
+!s100 ^Jl`mRVg_1KAdAXEWbUG^3
+In`RLegP8J3^^<EW2neA;i1
+R2
+R0
+w1657113025
+8MUX.v
+FMUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@m@u@x
+vparity_calc
+R1
+!i10b 1
+!s100 l>nFE4^a^ha4ZCBo<CZ`U1
+IQZ:aPGl7aR0cW0H[m:MYC2
+R2
+R0
+w1657114306
+8parity_calc.v
+Fparity_calc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vserializer
+R1
+!i10b 1
+!s100 3ozc[[mejROC@dggPJo4a3
+IRii?B?jRm3gJT30DSiJM@3
+R2
+R0
+w1657294760
+8serializer.v
+Fserializer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vUART_TX
+R1
+!i10b 1
+!s100 e^`=8KU0:jR1bF1Bco;RO1
+I@kejG?hh01?BNh>FGQJUI0
+R2
+R0
+w1657282231
+8UART_TX.v
+FUART_TX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@u@a@r@t_@t@x
+vUART_TX_tb
+R1
+!i10b 1
+!s100 d_2^FJD0?OXiLdIPAN92l3
+IAD[;6aGHUmbKF9moc6RJ13
+R2
+R0
+w1657296121
+8UART_TX_tb.v
+FUART_TX_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@u@a@r@t_@t@x_tb
