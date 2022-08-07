@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/Courses/Power/Assignments/Clock Divider/sol
+vClkDiv
+Z1 !s110 1659883686
+!i10b 1
+!s100 P0b;GcGjDZVcTL>1Sh>0@3
+Icn7@@F6SNkJe_h4cZ>;Ro3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1659882235
+8ClkDiv.v
+FClkDiv.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1659883686.000000
+Z5 !s107 ClkDiv_tb.v|ClkDiv.v|
+Z6 !s90 ClkDiv.v|ClkDiv_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+n@clk@div
+vClkDiv_tb
+R1
+!i10b 1
+!s100 bj3NFS7k>Ohndg8LeaNAY2
+InVkW;W_ACgE1HRPiKm^kZ2
+R2
+R0
+w1659883677
+8ClkDiv_tb.v
+FClkDiv_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@clk@div_tb

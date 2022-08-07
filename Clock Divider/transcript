@@ -1,0 +1,90 @@
+# ERROR: No extended dataflow license exists
+# vsim work.ClkDiv_tb 
+# Start time: 16:50:47 on Aug 07,2022
+# Loading work.ClkDiv_tb
+# Loading work.ClkDiv
+add wave -position insertpoint  \
+sim:/ClkDiv_tb/i_ref_clk_tb \
+sim:/ClkDiv_tb/i_rst_n_tb \
+sim:/ClkDiv_tb/i_clk_en_tb \
+sim:/ClkDiv_tb/i_div_ratio_tb \
+sim:/ClkDiv_tb/o_div_clk_tb
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+# 
+# 
+# Division by 4
+# 
+# 
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=0
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=0
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=0
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=0
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=0
+# 
+# 
+# Division by 5
+# 
+# 
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=0
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=0
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=0
+run
+# Ref clk=0,Div clk=0
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=1
+run
+# Ref clk=0,Div clk=1
+# Ref clk=1,Div clk=0
+# ** Note: $finish    : ClkDiv_tb.v(72)
+#    Time: 2100 ns  Iteration: 0  Instance: /ClkDiv_tb
+# 1
+# Break in Module ClkDiv_tb at ClkDiv_tb.v line 72
+# End time: 16:52:46 on Aug 07,2022, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 0
