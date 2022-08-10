@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/UART/UART_RX
 vdata_sampling
-Z1 !s110 1660139466
+Z1 !s110 1660151303
 !i10b 1
-!s100 l5V>c1>m0hmEbSQn5b>UX3
-I^d3mo_@NZCRYjmo?`2Q??2
+!s100 ;g:4f5><enU`CQgzSl9<<3
+IQ8XPTGS8kNKOmG06XTCOK2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1660139461
+w1660149350
 8data_sampling.v
 Fdata_sampling.v
 L0 1
@@ -23,9 +23,9 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1660139466.000000
-Z5 !s107 UART_RX.V|strt_check.v|stop_check.v|parity_check.v|FSM.v|edge_bit_counter.v|deserializer.v|data_sampling.v|
-Z6 !s90 data_sampling.v|deserializer.v|edge_bit_counter.v|FSM.v|parity_check.v|stop_check.v|strt_check.v|UART_RX.V|
+Z4 !s108 1660151303.000000
+Z5 !s107 UART_RX.V|strt_check.v|stop_check.v|parity_check.v|FSM_RX.v|edge_bit_counter.v|deserializer.v|data_sampling.v|
+Z6 !s90 data_sampling.v|deserializer.v|edge_bit_counter.v|FSM_RX.v|parity_check.v|stop_check.v|strt_check.v|UART_RX.V|
 !i113 1
 Z7 tCvgOpt 0
 vdeserializer
@@ -35,7 +35,7 @@ R1
 IkZ]hDo0?aAJcPPP2UEf]42
 R2
 R0
-w1658756858
+w1660149636
 8deserializer.v
 Fdeserializer.v
 L0 1
@@ -51,11 +51,11 @@ R7
 vedge_bit_counter
 R1
 !i10b 1
-!s100 VW:LS_zI0QYdgPc]S3D@I2
-I2=dW9_mU`SRY`YPESlF133
+!s100 4J3R8Vc_>jReDfE4Wn^Oz2
+I]TJ52:]o0d?cSLP@`^>NY0
 R2
 R0
-w1660135970
+w1660149332
 8edge_bit_counter.v
 Fedge_bit_counter.v
 L0 1
@@ -68,6 +68,27 @@ R5
 R6
 !i113 1
 R7
+vFSM_RX
+R1
+!i10b 1
+!s100 XOFBAjg7liNc7W<JGmVk@3
+IB]?Jfl5V?`:N_@Q]?TC7U3
+R2
+R0
+w1660149357
+8FSM_RX.v
+FFSM_RX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@f@s@m_@r@x
 vparity_check
 R1
 !i10b 1
@@ -128,3 +149,24 @@ R5
 R6
 !i113 1
 R7
+vUART_RX
+R1
+!i10b 1
+!s100 j6=SM5F3if8zdBb`1gF?f0
+I4UN`1VUQMnmdQXQi7`bjS1
+R2
+R0
+w1660151300
+8UART_RX.V
+FUART_RX.V
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@u@a@r@t_@r@x

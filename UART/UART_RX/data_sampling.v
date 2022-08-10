@@ -1,25 +1,25 @@
-module data_sampling
+module data_sampling #(parameter PRESCALE_WIDTH = 6)
 (
-    input   wire    [5:0]       edge_cnt                                    ,
-    input   wire                dat_samp_en                                 ,
-    input   wire                RX_IN                                       ,
-    input   wire    [5:0]       Prescale                                    ,
-    input   wire                CLK                                         ,
-    input   wire                RST                                         ,
+    input   wire    [PRESCALE_WIDTH - 1 : 0]        edge_cnt                ,
+    input   wire                                    dat_samp_en             ,
+    input   wire                                    RX_IN                   ,
+    input   wire    [PRESCALE_WIDTH - 1 : 0]        Prescale                ,
+    input   wire                                    CLK                     ,
+    input   wire                                    RST                     ,
 
-    output  reg                 sampled_bit     
+    output  reg                                     sampled_bit     
 );      
 
 /********************************************************************************************/
 /********************************************************************************************/
 
-    wire            [5:0]       num_samples                                 ;
-    reg             [5:0]       samples                                     ;
-    reg             [5:0]       counter                                     ;
+    wire            [PRESCALE_WIDTH - 1 : 0]       num_samples              ;
+    reg             [PRESCALE_WIDTH - 1 : 0]       samples                  ;
+    reg             [PRESCALE_WIDTH - 1 : 0]       counter                  ;
 
-    reg             [5:0]       ones                                        ;
-    reg             [5:0]       zeroes                                      ;
-    reg             [5:0]       i                                           ;
+    reg             [PRESCALE_WIDTH - 1 : 0]       ones                     ;
+    reg             [PRESCALE_WIDTH - 1 : 0]       zeroes                   ;
+    reg             [PRESCALE_WIDTH - 1 : 0]       i                        ;
 
 /********************************************************************************************/
 /********************************************************************************************/

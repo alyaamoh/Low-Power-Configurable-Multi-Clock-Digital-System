@@ -1,11 +1,11 @@
 module deserializer #(parameter DATA_WIDTH = 8)
 (
-    input   wire                    deser_en                                    ,
-    input   wire                    sampled_bit                                 ,
-    input   wire                    CLK                                         ,
-    input   wire                    RST                                         ,
+    input   wire                        deser_en                                ,
+    input   wire                        sampled_bit                             ,
+    input   wire                        CLK                                     ,
+    input   wire                        RST                                     ,
 
-    output  reg [DATA_WIDTH-1:0]    P_DATA
+    output  reg [DATA_WIDTH - 1 : 0]    P_DATA
 );
 
 /********************************************************************************************/

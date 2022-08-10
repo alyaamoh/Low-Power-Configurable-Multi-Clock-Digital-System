@@ -1,12 +1,12 @@
-module edge_bit_counter
+module edge_bit_counter #(parameter PRESCALE_WIDTH = 6)
 (
-    input   wire            enable                                  ,
-    input   wire    [5:0]   Prescale                                ,
-    input   wire            CLK                                     ,
-    input   wire            RST                                     ,
+    input   wire                                enable              ,
+    input   wire    [PRESCALE_WIDTH - 1 : 0]    Prescale            ,
+    input   wire                                CLK                 ,
+    input   wire                                RST                 ,
 
-    output  reg     [4:0]   bit_cnt                                 ,
-    output  reg     [5:0]   edge_cnt
+    output  reg     [PRESCALE_WIDTH - 2 : 0]    bit_cnt             ,
+    output  reg     [PRESCALE_WIDTH - 1 :0]     edge_cnt
 );
 
 /********************************************************************************************/
