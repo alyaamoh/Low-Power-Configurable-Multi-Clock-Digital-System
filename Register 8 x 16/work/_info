@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/gam3a/courses/digital electronics/Courses/Verilog/Session_4/New folder/Assignments/sol/Register 8 x 16
+vRegister8x16
+Z0 !s110 1660509495
+!i10b 1
+!s100 ];Va`_iK8m:S_F9SML8oD2
+IfW_e]C8Le7W?<fE]8[Ah;3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/Register 8 x 16
+w1660509492
+8Register8x16.v
+FRegister8x16.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1660509495.000000
+Z5 !s107 Register8x16_tb.v|Register8x16.v|
+Z6 !s90 Register8x16.v|Register8x16_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+n@register8x16
+vRegister8x16_tb
+R0
+!i10b 1
+!s100 BJ4BCfJVG:9DEl?KcV^og1
+IoVZX>I64gHiJmXa2`kaIZ0
+R1
+R2
+w1660509390
+8Register8x16_tb.v
+FRegister8x16_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@register8x16_tb

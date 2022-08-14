@@ -1,0 +1,42 @@
+# ERROR: No extended dataflow license exists
+# vsim work.Register8x16_tb 
+# Start time: 22:38:27 on Aug 14,2022
+# Loading work.Register8x16_tb
+# Loading work.Register8x16
+run
+# 
+# 
+# Load the first value
+# 
+# RdData_Valid = 0
+# 
+# 
+# 
+# Load the second value
+# 
+# 
+# Read the first value
+# 
+# RdData_Valid = 1
+# 
+# 
+# TEST CASE  IS PASSED
+# 
+# 
+# 
+# Read the second value
+# 
+# TEST CASE  IS PASSED
+# 
+# 
+# 
+# Load the third value
+# 
+# RdData_Valid = 0
+# 
+# ** Note: $finish    : Register8x16_tb.v(142)
+#    Time: 2 us  Iteration: 0  Instance: /Register8x16_tb
+# 1
+# Break in Module Register8x16_tb at Register8x16_tb.v line 142
+# End time: 22:38:54 on Aug 14,2022, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0

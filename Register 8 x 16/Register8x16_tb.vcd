@@ -1,0 +1,493 @@
+$date
+	Sun Aug 14 22:38:37 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Register8x16_tb $end
+$var parameter 32 ! WIDTH_tb $end
+$var parameter 32 " DEPTH_tb $end
+$var parameter 32 # ADDRESS_WIDTH_tb $end
+$var parameter 32 $ CLK_PERIOD $end
+$var reg 16 % WrData_tb [15:0] $end
+$var reg 4 & Address_tb [3:0] $end
+$var reg 1 ' WrEn_tb $end
+$var reg 1 ( RdEn_tb $end
+$var reg 1 ) CLK_tb $end
+$var reg 1 * RST_tb $end
+$var wire 1 + RdData_tb [15] $end
+$var wire 1 , RdData_tb [14] $end
+$var wire 1 - RdData_tb [13] $end
+$var wire 1 . RdData_tb [12] $end
+$var wire 1 / RdData_tb [11] $end
+$var wire 1 0 RdData_tb [10] $end
+$var wire 1 1 RdData_tb [9] $end
+$var wire 1 2 RdData_tb [8] $end
+$var wire 1 3 RdData_tb [7] $end
+$var wire 1 4 RdData_tb [6] $end
+$var wire 1 5 RdData_tb [5] $end
+$var wire 1 6 RdData_tb [4] $end
+$var wire 1 7 RdData_tb [3] $end
+$var wire 1 8 RdData_tb [2] $end
+$var wire 1 9 RdData_tb [1] $end
+$var wire 1 : RdData_tb [0] $end
+$var wire 1 ; RdData_Valid_tb $end
+$var wire 1 < REG0_tb [15] $end
+$var wire 1 = REG0_tb [14] $end
+$var wire 1 > REG0_tb [13] $end
+$var wire 1 ? REG0_tb [12] $end
+$var wire 1 @ REG0_tb [11] $end
+$var wire 1 A REG0_tb [10] $end
+$var wire 1 B REG0_tb [9] $end
+$var wire 1 C REG0_tb [8] $end
+$var wire 1 D REG0_tb [7] $end
+$var wire 1 E REG0_tb [6] $end
+$var wire 1 F REG0_tb [5] $end
+$var wire 1 G REG0_tb [4] $end
+$var wire 1 H REG0_tb [3] $end
+$var wire 1 I REG0_tb [2] $end
+$var wire 1 J REG0_tb [1] $end
+$var wire 1 K REG0_tb [0] $end
+$var wire 1 L REG1_tb [15] $end
+$var wire 1 M REG1_tb [14] $end
+$var wire 1 N REG1_tb [13] $end
+$var wire 1 O REG1_tb [12] $end
+$var wire 1 P REG1_tb [11] $end
+$var wire 1 Q REG1_tb [10] $end
+$var wire 1 R REG1_tb [9] $end
+$var wire 1 S REG1_tb [8] $end
+$var wire 1 T REG1_tb [7] $end
+$var wire 1 U REG1_tb [6] $end
+$var wire 1 V REG1_tb [5] $end
+$var wire 1 W REG1_tb [4] $end
+$var wire 1 X REG1_tb [3] $end
+$var wire 1 Y REG1_tb [2] $end
+$var wire 1 Z REG1_tb [1] $end
+$var wire 1 [ REG1_tb [0] $end
+$var wire 1 \ REG2_tb [15] $end
+$var wire 1 ] REG2_tb [14] $end
+$var wire 1 ^ REG2_tb [13] $end
+$var wire 1 _ REG2_tb [12] $end
+$var wire 1 ` REG2_tb [11] $end
+$var wire 1 a REG2_tb [10] $end
+$var wire 1 b REG2_tb [9] $end
+$var wire 1 c REG2_tb [8] $end
+$var wire 1 d REG2_tb [7] $end
+$var wire 1 e REG2_tb [6] $end
+$var wire 1 f REG2_tb [5] $end
+$var wire 1 g REG2_tb [4] $end
+$var wire 1 h REG2_tb [3] $end
+$var wire 1 i REG2_tb [2] $end
+$var wire 1 j REG2_tb [1] $end
+$var wire 1 k REG2_tb [0] $end
+$var wire 1 l REG3_tb [15] $end
+$var wire 1 m REG3_tb [14] $end
+$var wire 1 n REG3_tb [13] $end
+$var wire 1 o REG3_tb [12] $end
+$var wire 1 p REG3_tb [11] $end
+$var wire 1 q REG3_tb [10] $end
+$var wire 1 r REG3_tb [9] $end
+$var wire 1 s REG3_tb [8] $end
+$var wire 1 t REG3_tb [7] $end
+$var wire 1 u REG3_tb [6] $end
+$var wire 1 v REG3_tb [5] $end
+$var wire 1 w REG3_tb [4] $end
+$var wire 1 x REG3_tb [3] $end
+$var wire 1 y REG3_tb [2] $end
+$var wire 1 z REG3_tb [1] $end
+$var wire 1 { REG3_tb [0] $end
+
+$scope module DUT $end
+$var parameter 32 | WIDTH $end
+$var parameter 32 } DEPTH $end
+$var parameter 32 ~ ADDRESS_WIDTH $end
+$var wire 1 !! WrData [15] $end
+$var wire 1 "! WrData [14] $end
+$var wire 1 #! WrData [13] $end
+$var wire 1 $! WrData [12] $end
+$var wire 1 %! WrData [11] $end
+$var wire 1 &! WrData [10] $end
+$var wire 1 '! WrData [9] $end
+$var wire 1 (! WrData [8] $end
+$var wire 1 )! WrData [7] $end
+$var wire 1 *! WrData [6] $end
+$var wire 1 +! WrData [5] $end
+$var wire 1 ,! WrData [4] $end
+$var wire 1 -! WrData [3] $end
+$var wire 1 .! WrData [2] $end
+$var wire 1 /! WrData [1] $end
+$var wire 1 0! WrData [0] $end
+$var wire 1 1! Address [3] $end
+$var wire 1 2! Address [2] $end
+$var wire 1 3! Address [1] $end
+$var wire 1 4! Address [0] $end
+$var wire 1 5! WrEn $end
+$var wire 1 6! RdEn $end
+$var wire 1 7! CLK $end
+$var wire 1 8! RST $end
+$var reg 16 9! RdData [15:0] $end
+$var reg 1 :! RdData_Valid $end
+$var wire 1 < REG0 [15] $end
+$var wire 1 = REG0 [14] $end
+$var wire 1 > REG0 [13] $end
+$var wire 1 ? REG0 [12] $end
+$var wire 1 @ REG0 [11] $end
+$var wire 1 A REG0 [10] $end
+$var wire 1 B REG0 [9] $end
+$var wire 1 C REG0 [8] $end
+$var wire 1 D REG0 [7] $end
+$var wire 1 E REG0 [6] $end
+$var wire 1 F REG0 [5] $end
+$var wire 1 G REG0 [4] $end
+$var wire 1 H REG0 [3] $end
+$var wire 1 I REG0 [2] $end
+$var wire 1 J REG0 [1] $end
+$var wire 1 K REG0 [0] $end
+$var wire 1 L REG1 [15] $end
+$var wire 1 M REG1 [14] $end
+$var wire 1 N REG1 [13] $end
+$var wire 1 O REG1 [12] $end
+$var wire 1 P REG1 [11] $end
+$var wire 1 Q REG1 [10] $end
+$var wire 1 R REG1 [9] $end
+$var wire 1 S REG1 [8] $end
+$var wire 1 T REG1 [7] $end
+$var wire 1 U REG1 [6] $end
+$var wire 1 V REG1 [5] $end
+$var wire 1 W REG1 [4] $end
+$var wire 1 X REG1 [3] $end
+$var wire 1 Y REG1 [2] $end
+$var wire 1 Z REG1 [1] $end
+$var wire 1 [ REG1 [0] $end
+$var wire 1 \ REG2 [15] $end
+$var wire 1 ] REG2 [14] $end
+$var wire 1 ^ REG2 [13] $end
+$var wire 1 _ REG2 [12] $end
+$var wire 1 ` REG2 [11] $end
+$var wire 1 a REG2 [10] $end
+$var wire 1 b REG2 [9] $end
+$var wire 1 c REG2 [8] $end
+$var wire 1 d REG2 [7] $end
+$var wire 1 e REG2 [6] $end
+$var wire 1 f REG2 [5] $end
+$var wire 1 g REG2 [4] $end
+$var wire 1 h REG2 [3] $end
+$var wire 1 i REG2 [2] $end
+$var wire 1 j REG2 [1] $end
+$var wire 1 k REG2 [0] $end
+$var wire 1 l REG3 [15] $end
+$var wire 1 m REG3 [14] $end
+$var wire 1 n REG3 [13] $end
+$var wire 1 o REG3 [12] $end
+$var wire 1 p REG3 [11] $end
+$var wire 1 q REG3 [10] $end
+$var wire 1 r REG3 [9] $end
+$var wire 1 s REG3 [8] $end
+$var wire 1 t REG3 [7] $end
+$var wire 1 u REG3 [6] $end
+$var wire 1 v REG3 [5] $end
+$var wire 1 w REG3 [4] $end
+$var wire 1 x REG3 [3] $end
+$var wire 1 y REG3 [2] $end
+$var wire 1 z REG3 [1] $end
+$var wire 1 { REG3 [0] $end
+$var integer 32 ;! i $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 &
+0'
+0(
+0)
+0*
+b0 9!
+0:!
+b10000 !
+b1000 "
+b100 #
+b1100100 $
+b10000 |
+b1000 }
+b100 ~
+b1000 ;!
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0;
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+08!
+07!
+06!
+05!
+04!
+03!
+02!
+01!
+00!
+0/!
+0.!
+0-!
+0,!
+0+!
+0*!
+0)!
+0(!
+0'!
+0&!
+0%!
+0$!
+0#!
+0"!
+0!!
+$end
+#50000
+1)
+17!
+b0 ;!
+b1 ;!
+b10 ;!
+b11 ;!
+b100 ;!
+b101 ;!
+b110 ;!
+b111 ;!
+b1000 ;!
+#100000
+1'
+b10 %
+1*
+0)
+15!
+1/!
+18!
+07!
+#150000
+1)
+17!
+1J
+#200000
+0)
+07!
+#250000
+1)
+17!
+#300000
+b100 %
+b1 &
+0)
+14!
+0/!
+1.!
+07!
+#350000
+1)
+17!
+1Y
+#400000
+0)
+07!
+#450000
+1)
+17!
+#500000
+0'
+1(
+b0 %
+b0 &
+0)
+05!
+16!
+04!
+0.!
+07!
+#550000
+1)
+17!
+b10 9!
+1:!
+19
+1;
+#600000
+0)
+07!
+#650000
+1)
+17!
+#700000
+b1 &
+0)
+14!
+07!
+#750000
+1)
+17!
+b100 9!
+09
+18
+#800000
+0)
+07!
+#850000
+1)
+17!
+#900000
+1'
+0(
+b110 %
+b1000 &
+0)
+15!
+06!
+04!
+11!
+1/!
+1.!
+07!
+#950000
+1)
+17!
+0:!
+0;
+#1000000
+0)
+07!
+#1050000
+1)
+17!
+#1100000
+0)
+07!
+#1150000
+1)
+17!
+#1200000
+0)
+07!
+#1250000
+1)
+17!
+#1300000
+0)
+07!
+#1350000
+1)
+17!
+#1400000
+0)
+07!
+#1450000
+1)
+17!
+#1500000
+0)
+07!
+#1550000
+1)
+17!
+#1600000
+0)
+07!
+#1650000
+1)
+17!
+#1700000
+0)
+07!
+#1750000
+1)
+17!
+#1800000
+0)
+07!
+#1850000
+1)
+17!
+#1900000
+0)
+07!
+#1950000
+1)
+17!
