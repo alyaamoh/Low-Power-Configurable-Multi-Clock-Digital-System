@@ -1,0 +1,31 @@
+# ERROR: No extended dataflow license exists
+# vsim work.BIT_SYNC_tb 
+# Start time: 20:26:24 on Jul 21,2022
+# Loading work.BIT_SYNC_tb
+# Loading work.BIT_SYNC
+run
+run
+run
+run
+# 
+# 
+# TEST CASE 0
+# 
+# Passed
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $finish    : BIT_SYNC_tb.v(59)
+#    Time: 1400 ns  Iteration: 0  Instance: /BIT_SYNC_tb
+# 1
+# Break in Module BIT_SYNC_tb at BIT_SYNC_tb.v line 59
+# End time: 20:26:43 on Jul 21,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0

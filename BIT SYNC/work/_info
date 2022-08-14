@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/Courses/CDC/Assignments/Ass_1.0/sol
+vBIT_SYNC
+Z1 !s110 1658427968
+!i10b 1
+!s100 @CzJ>DfE;AF8VeLB:6:GG1
+IEE=1UdH0E92FZSG<C42M:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658427954
+8BIT_SYNC.v
+FBIT_SYNC.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1658427968.000000
+Z5 !s107 BIT_SYNC_tb.v|BIT_SYNC.v|
+Z6 !s90 BIT_SYNC.v|BIT_SYNC_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+n@b@i@t_@s@y@n@c
+vBIT_SYNC_tb
+R1
+!i10b 1
+!s100 GbnQ1Xf4a;CoNEjS5G`fa2
+IB^=OKLj=?Pl_2MP`Lj>l40
+R2
+R0
+w1658427864
+8BIT_SYNC_tb.v
+FBIT_SYNC_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@b@i@t_@s@y@n@c_tb

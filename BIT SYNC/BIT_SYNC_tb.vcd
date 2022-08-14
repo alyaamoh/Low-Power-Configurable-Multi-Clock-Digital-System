@@ -1,0 +1,223 @@
+$date
+	Thu Jul 21 20:26:31 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module BIT_SYNC_tb $end
+$var parameter 32 ! NUM_STAGES_tb $end
+$var parameter 32 " BUS_WIDTH_tb $end
+$var parameter 32 # CLK_PERIOD $end
+$var reg 4 $ ASYNCH_tb [3:0] $end
+$var reg 1 % RST_tb $end
+$var reg 1 & CLK_tb $end
+$var wire 1 ' SYNC_tb [3] $end
+$var wire 1 ( SYNC_tb [2] $end
+$var wire 1 ) SYNC_tb [1] $end
+$var wire 1 * SYNC_tb [0] $end
+
+$scope module DUT $end
+$var parameter 32 + NUM_STAGES $end
+$var parameter 32 , BUS_WIDTH $end
+$var wire 1 - ASYNCH [3] $end
+$var wire 1 . ASYNCH [2] $end
+$var wire 1 / ASYNCH [1] $end
+$var wire 1 0 ASYNCH [0] $end
+$var wire 1 1 RST $end
+$var wire 1 2 CLK $end
+$var reg 4 3 SYNC [3:0] $end
+$var integer 32 4 counter $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+0%
+0&
+b0 3
+b10 !
+b100 "
+b1100100 #
+b10 +
+b100 ,
+b100 4
+0*
+0)
+0(
+0'
+02
+01
+00
+0/
+0.
+0-
+$end
+#50000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#70000
+1%
+11
+#100000
+0&
+b1101 $
+10
+1.
+1-
+02
+#150000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#200000
+0&
+02
+#250000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#300000
+0&
+02
+#350000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+b1 3
+b101 3
+b1101 3
+1*
+1(
+1'
+#400000
+0&
+02
+#450000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#500000
+0&
+02
+#550000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#600000
+0&
+02
+#650000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#700000
+0&
+02
+#750000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#800000
+0&
+02
+#850000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#900000
+0&
+02
+#950000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#1000000
+0&
+02
+#1050000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#1100000
+0&
+02
+#1150000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#1200000
+0&
+02
+#1250000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
+#1300000
+0&
+02
+#1350000
+1&
+12
+b0 4
+b1 4
+b10 4
+b11 4
+b100 4
