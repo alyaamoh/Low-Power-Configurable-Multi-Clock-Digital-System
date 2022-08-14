@@ -1,0 +1,147 @@
+# ERROR: No extended dataflow license exists
+# vsim work.ALU_tb 
+# Start time: 21:35:47 on Aug 14,2022
+# Loading work.ALU_tb
+# Loading work.ALU_Top
+# Loading work.Decoder
+# Loading work.Arithmetic_unit
+# Loading work.Logic_unit
+# Loading work.CMP_unit
+# Loading work.Shift_unit
+run
+# 
+# OUT_VALID = 0
+# 
+# 
+# Arithmetic Operations Tests
+# 
+# 
+# TEST CASE 1
+# 
+# OUT_VALID = 1
+# 
+# 
+# TEST CASE 1 IS PASSED
+# 
+# 
+# TEST CASE 2
+# 
+# TEST CASE 2 IS PASSED
+# 
+# 
+# TEST CASE 3
+# 
+# TEST CASE 3 IS PASSED
+# 
+# 
+# TEST CASE 4
+# 
+# TEST CASE 4 IS PASSED
+# 
+# 
+#  Logic Operations Tests
+# 
+# 
+# TEST CASE 5
+# 
+# OUT_VALID = 0
+# 
+# 
+# OUT_VALID = 1
+# 
+# 
+# TEST CASE 5 IS PASSED
+# 
+# 
+# TEST CASE 6
+# 
+# TEST CASE 6 IS PASSED
+# 
+# 
+# TEST CASE 7
+# 
+# TEST CASE 7 IS PASSED
+# 
+# 
+# TEST CASE 8
+# 
+# TEST CASE 8 IS PASSED
+# 
+# 
+# CMP Operations Tests
+# 
+# 
+# TEST CASE 9
+# 
+# OUT_VALID = 0
+# 
+# 
+# OUT_VALID = 1
+# 
+# 
+# TEST CASE 9 IS PASSED
+# 
+# 
+# TEST CASE 10
+# 
+# TEST CASE 10 IS PASSED
+# 
+# 
+# TEST CASE 11
+# 
+# TEST CASE 11 IS PASSED
+# 
+# 
+# TEST CASE 12
+# 
+# TEST CASE 12 IS PASSED
+# 
+# 
+# TEST CASE 13
+# 
+# TEST CASE 13 IS PASSED
+# 
+# 
+# TEST CASE 14
+# 
+# TEST CASE 14 IS PASSED
+# 
+# 
+# TEST CASE 15
+# 
+# TEST CASE 15 IS PASSED
+# 
+# 
+# Shift Operations Tests
+# 
+# 
+# TEST CASE 16
+# 
+# OUT_VALID = 0
+# 
+# 
+# OUT_VALID = 1
+# 
+# 
+# TEST CASE 16 IS PASSED
+# 
+# 
+# TEST CASE 17
+# 
+# TEST CASE 17 IS PASSED
+# 
+# 
+# TEST CASE 18
+# 
+# TEST CASE 18 IS PASSED
+# 
+# 
+# TEST CASE 19
+# 
+# TEST CASE 19 IS PASSED
+# ** Note: $finish    : ALU_tb.v(474)
+#    Time: 8700 ns  Iteration: 0  Instance: /ALU_tb
+# 1
+# Break in Module ALU_tb at ALU_tb.v line 474
+# End time: 21:36:45 on Aug 14,2022, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0

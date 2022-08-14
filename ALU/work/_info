@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/ALU
+vALU_tb
+Z1 !s110 1660505614
+!i10b 1
+!s100 ^@B7UO?Q55S>hfo0nQEIB2
+Ij3Sj@UGCM;KTNnP^;2?Nb3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1660505610
+8ALU_tb.v
+FALU_tb.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1660505614.000000
+Z5 !s107 Shift_unit.v|Logic_unit.v|Decoder.v|CMP_unit.v|Arithmetic_unit.v|ALU_Top.v|ALU_tb.v|
+Z6 !s90 ALU_tb.v|ALU_Top.v|Arithmetic_unit.v|CMP_unit.v|Decoder.v|Logic_unit.v|Shift_unit.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u_tb
+vALU_Top
+R1
+!i10b 1
+!s100 NV;de[JZEMQoRH?MX@=;<1
+I0YdLD0Yc9Pok^D`F9^VmK1
+R2
+R0
+w1660505016
+8ALU_Top.v
+FALU_Top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@a@l@u_@top
+vArithmetic_unit
+R1
+!i10b 1
+!s100 ]^>[oHTjCPb>b?_hhIf=Q2
+Ij5gXRRh@9WS[9[KzfHAAc2
+R2
+R0
+w1660494399
+8Arithmetic_unit.v
+FArithmetic_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@arithmetic_unit
+vCMP_unit
+R1
+!i10b 1
+!s100 ]1bTYBMkdF0l4e[[:`zTN3
+I9355@PGCj;]nk81EW51QA0
+R2
+R0
+w1660494418
+8CMP_unit.v
+FCMP_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@c@m@p_unit
+vDecoder
+R1
+!i10b 1
+!s100 CKD=zEi9YMS[^WBHhb_5g1
+IIGm40H0TUM2^FZFflij^f0
+R2
+R0
+w1660504954
+8Decoder.v
+FDecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@decoder
+vLogic_unit
+R1
+!i10b 1
+!s100 `m_7k^I?<E9dg5GaJgdG60
+IRQfGk2RZIjzgQ5?Mk97XW3
+R2
+R0
+w1660494441
+8Logic_unit.v
+FLogic_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@logic_unit
+vShift_unit
+R1
+!i10b 1
+!s100 i5Tl0Y2?jYhCb[nSW5K=R3
+IA<NNCCUeO5`j>zT7cYh4c0
+R2
+R0
+w1660494776
+8Shift_unit.v
+FShift_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@shift_unit
