@@ -1,5 +1,5 @@
 $date
-	Sun Aug 14 21:36:00 2022
+	Tue Aug 16 14:50:19 2022
 $end
 $version
 	ModelSim Version 10.5b
@@ -58,115 +58,67 @@ $var wire 1 L ALU_FUN [0] $end
 $var wire 1 M ALU_EN $end
 $var wire 1 N CLK $end
 $var wire 1 O RST $end
-$var wire 1 , ALU_OUT [7] $end
-$var wire 1 - ALU_OUT [6] $end
-$var wire 1 . ALU_OUT [5] $end
-$var wire 1 / ALU_OUT [4] $end
-$var wire 1 0 ALU_OUT [3] $end
-$var wire 1 1 ALU_OUT [2] $end
-$var wire 1 2 ALU_OUT [1] $end
-$var wire 1 3 ALU_OUT [0] $end
-$var wire 1 4 OUT_VALID $end
-$var wire 1 P Arith_en $end
-$var wire 1 Q Logic_en $end
-$var wire 1 R CMP_en $end
-$var wire 1 S Shift_en $end
-$var wire 1 T Arith_OUT [7] $end
-$var wire 1 U Arith_OUT [6] $end
-$var wire 1 V Arith_OUT [5] $end
-$var wire 1 W Arith_OUT [4] $end
-$var wire 1 X Arith_OUT [3] $end
-$var wire 1 Y Arith_OUT [2] $end
-$var wire 1 Z Arith_OUT [1] $end
-$var wire 1 [ Arith_OUT [0] $end
-$var wire 1 \ Logic_OUT [7] $end
-$var wire 1 ] Logic_OUT [6] $end
-$var wire 1 ^ Logic_OUT [5] $end
-$var wire 1 _ Logic_OUT [4] $end
-$var wire 1 ` Logic_OUT [3] $end
-$var wire 1 a Logic_OUT [2] $end
-$var wire 1 b Logic_OUT [1] $end
-$var wire 1 c Logic_OUT [0] $end
-$var wire 1 d CMP_OUT [7] $end
-$var wire 1 e CMP_OUT [6] $end
-$var wire 1 f CMP_OUT [5] $end
-$var wire 1 g CMP_OUT [4] $end
-$var wire 1 h CMP_OUT [3] $end
-$var wire 1 i CMP_OUT [2] $end
-$var wire 1 j CMP_OUT [1] $end
-$var wire 1 k CMP_OUT [0] $end
-$var wire 1 l Shift_OUT [7] $end
-$var wire 1 m Shift_OUT [6] $end
-$var wire 1 n Shift_OUT [5] $end
-$var wire 1 o Shift_OUT [4] $end
-$var wire 1 p Shift_OUT [3] $end
-$var wire 1 q Shift_OUT [2] $end
-$var wire 1 r Shift_OUT [1] $end
-$var wire 1 s Shift_OUT [0] $end
-$var wire 1 t Valid_Arith $end
-$var wire 1 u Valid_Logic $end
-$var wire 1 v Valid_CMP $end
-$var wire 1 w Valid_Shift $end
+$var reg 8 P ALU_OUT [7:0] $end
+$var reg 1 Q OUT_VALID $end
+$var wire 1 R Arith_en $end
+$var wire 1 S Logic_en $end
+$var wire 1 T CMP_en $end
+$var wire 1 U Shift_en $end
+$var wire 1 V Arith_OUT [7] $end
+$var wire 1 W Arith_OUT [6] $end
+$var wire 1 X Arith_OUT [5] $end
+$var wire 1 Y Arith_OUT [4] $end
+$var wire 1 Z Arith_OUT [3] $end
+$var wire 1 [ Arith_OUT [2] $end
+$var wire 1 \ Arith_OUT [1] $end
+$var wire 1 ] Arith_OUT [0] $end
+$var wire 1 ^ Logic_OUT [7] $end
+$var wire 1 _ Logic_OUT [6] $end
+$var wire 1 ` Logic_OUT [5] $end
+$var wire 1 a Logic_OUT [4] $end
+$var wire 1 b Logic_OUT [3] $end
+$var wire 1 c Logic_OUT [2] $end
+$var wire 1 d Logic_OUT [1] $end
+$var wire 1 e Logic_OUT [0] $end
+$var wire 1 f CMP_OUT [7] $end
+$var wire 1 g CMP_OUT [6] $end
+$var wire 1 h CMP_OUT [5] $end
+$var wire 1 i CMP_OUT [4] $end
+$var wire 1 j CMP_OUT [3] $end
+$var wire 1 k CMP_OUT [2] $end
+$var wire 1 l CMP_OUT [1] $end
+$var wire 1 m CMP_OUT [0] $end
+$var wire 1 n Shift_OUT [7] $end
+$var wire 1 o Shift_OUT [6] $end
+$var wire 1 p Shift_OUT [5] $end
+$var wire 1 q Shift_OUT [4] $end
+$var wire 1 r Shift_OUT [3] $end
+$var wire 1 s Shift_OUT [2] $end
+$var wire 1 t Shift_OUT [1] $end
+$var wire 1 u Shift_OUT [0] $end
+$var wire 1 v Valid_Arith $end
+$var wire 1 w Valid_Logic $end
+$var wire 1 x Valid_CMP $end
+$var wire 1 y Valid_Shift $end
+$var reg 8 z Result_out [7:0] $end
+$var reg 1 { Valid $end
 
 $scope module D1 $end
-$var parameter 32 x OUT_WIDTH $end
-$var parameter 32 y ALU_FUN_WIDTH $end
+$var parameter 32 | ALU_FUN_WIDTH $end
 $var wire 1 I ALU_FUN [1] $end
 $var wire 1 J ALU_FUN [0] $end
 $var wire 1 M ALU_EN $end
-$var wire 1 T Arith_OUT [7] $end
-$var wire 1 U Arith_OUT [6] $end
-$var wire 1 V Arith_OUT [5] $end
-$var wire 1 W Arith_OUT [4] $end
-$var wire 1 X Arith_OUT [3] $end
-$var wire 1 Y Arith_OUT [2] $end
-$var wire 1 Z Arith_OUT [1] $end
-$var wire 1 [ Arith_OUT [0] $end
-$var wire 1 \ Logic_OUT [7] $end
-$var wire 1 ] Logic_OUT [6] $end
-$var wire 1 ^ Logic_OUT [5] $end
-$var wire 1 _ Logic_OUT [4] $end
-$var wire 1 ` Logic_OUT [3] $end
-$var wire 1 a Logic_OUT [2] $end
-$var wire 1 b Logic_OUT [1] $end
-$var wire 1 c Logic_OUT [0] $end
-$var wire 1 d CMP_OUT [7] $end
-$var wire 1 e CMP_OUT [6] $end
-$var wire 1 f CMP_OUT [5] $end
-$var wire 1 g CMP_OUT [4] $end
-$var wire 1 h CMP_OUT [3] $end
-$var wire 1 i CMP_OUT [2] $end
-$var wire 1 j CMP_OUT [1] $end
-$var wire 1 k CMP_OUT [0] $end
-$var wire 1 l Shift_OUT [7] $end
-$var wire 1 m Shift_OUT [6] $end
-$var wire 1 n Shift_OUT [5] $end
-$var wire 1 o Shift_OUT [4] $end
-$var wire 1 p Shift_OUT [3] $end
-$var wire 1 q Shift_OUT [2] $end
-$var wire 1 r Shift_OUT [1] $end
-$var wire 1 s Shift_OUT [0] $end
-$var wire 1 t Valid_Arith $end
-$var wire 1 u Valid_Logic $end
-$var wire 1 v Valid_CMP $end
-$var wire 1 w Valid_Shift $end
-$var wire 1 N CLK $end
-$var wire 1 O RST $end
-$var reg 1 z OUT_VALID $end
-$var reg 8 { ALU_OUT [7:0] $end
-$var reg 1 | Arith_Enable $end
-$var reg 1 } Logic_Enable $end
-$var reg 1 ~ CMP_Enable $end
-$var reg 1 !! Shift_Enable $end
-$var reg 8 "! Result_out [7:0] $end
-$var reg 1 #! Valid $end
+$var reg 1 } Arith_Enable $end
+$var reg 1 ~ Logic_Enable $end
+$var reg 1 !! CMP_Enable $end
+$var reg 1 "! Shift_Enable $end
 $upscope $end
 
 $scope module Arith $end
-$var parameter 32 $! A_WIDTH $end
-$var parameter 32 %! B_WIDTH $end
-$var parameter 32 &! OUT_WIDTH $end
-$var parameter 32 '! ALU_FUN_WIDTH $end
+$var parameter 32 #! A_WIDTH $end
+$var parameter 32 $! B_WIDTH $end
+$var parameter 32 %! OUT_WIDTH $end
+$var parameter 32 &! ALU_FUN_WIDTH $end
 $var wire 1 9 A [7] $end
 $var wire 1 : A [6] $end
 $var wire 1 ; A [5] $end
@@ -185,20 +137,20 @@ $var wire 1 G B [1] $end
 $var wire 1 H B [0] $end
 $var wire 1 K ALU_FUN [1] $end
 $var wire 1 L ALU_FUN [0] $end
-$var wire 1 P Arith_Enable $end
+$var wire 1 R Arith_Enable $end
 $var wire 1 N CLK $end
 $var wire 1 O RST $end
-$var reg 8 (! Arith_OUT [7:0] $end
-$var reg 1 )! OUT_VALID $end
-$var reg 8 *! Arith_Result [7:0] $end
-$var reg 1 +! VALID $end
+$var reg 8 '! Arith_OUT [7:0] $end
+$var reg 1 (! OUT_VALID $end
+$var reg 8 )! Arith_Result [7:0] $end
+$var reg 1 *! VALID $end
 $upscope $end
 
 $scope module Logic $end
-$var parameter 32 ,! A_WIDTH $end
-$var parameter 32 -! B_WIDTH $end
-$var parameter 32 .! OUT_WIDTH $end
-$var parameter 32 /! ALU_FUN_WIDTH $end
+$var parameter 32 +! A_WIDTH $end
+$var parameter 32 ,! B_WIDTH $end
+$var parameter 32 -! OUT_WIDTH $end
+$var parameter 32 .! ALU_FUN_WIDTH $end
 $var wire 1 9 A [7] $end
 $var wire 1 : A [6] $end
 $var wire 1 ; A [5] $end
@@ -217,20 +169,20 @@ $var wire 1 G B [1] $end
 $var wire 1 H B [0] $end
 $var wire 1 K ALU_FUN [1] $end
 $var wire 1 L ALU_FUN [0] $end
-$var wire 1 Q Logic_Enable $end
+$var wire 1 S Logic_Enable $end
 $var wire 1 N CLK $end
 $var wire 1 O RST $end
-$var reg 8 0! Logic_OUT [7:0] $end
-$var reg 1 1! OUT_VALID $end
-$var reg 8 2! Logic_Result [7:0] $end
-$var reg 1 3! VALID $end
+$var reg 8 /! Logic_OUT [7:0] $end
+$var reg 1 0! OUT_VALID $end
+$var reg 8 1! Logic_Result [7:0] $end
+$var reg 1 2! VALID $end
 $upscope $end
 
 $scope module CMP $end
-$var parameter 32 4! A_WIDTH $end
-$var parameter 32 5! B_WIDTH $end
-$var parameter 32 6! OUT_WIDTH $end
-$var parameter 32 7! ALU_FUN_WIDTH $end
+$var parameter 32 3! A_WIDTH $end
+$var parameter 32 4! B_WIDTH $end
+$var parameter 32 5! OUT_WIDTH $end
+$var parameter 32 6! ALU_FUN_WIDTH $end
 $var wire 1 9 A [7] $end
 $var wire 1 : A [6] $end
 $var wire 1 ; A [5] $end
@@ -249,20 +201,20 @@ $var wire 1 G B [1] $end
 $var wire 1 H B [0] $end
 $var wire 1 K ALU_FUN [1] $end
 $var wire 1 L ALU_FUN [0] $end
-$var wire 1 R CMP_Enable $end
+$var wire 1 T CMP_Enable $end
 $var wire 1 N CLK $end
 $var wire 1 O RST $end
-$var reg 8 8! CMP_OUT [7:0] $end
-$var reg 1 9! OUT_VALID $end
-$var reg 8 :! CMP_Result [7:0] $end
-$var reg 1 ;! VALID $end
+$var reg 8 7! CMP_OUT [7:0] $end
+$var reg 1 8! OUT_VALID $end
+$var reg 8 9! CMP_Result [7:0] $end
+$var reg 1 :! VALID $end
 $upscope $end
 
 $scope module Shift $end
-$var parameter 32 <! A_WIDTH $end
-$var parameter 32 =! B_WIDTH $end
-$var parameter 32 >! OUT_WIDTH $end
-$var parameter 32 ?! ALU_FUN_WIDTH $end
+$var parameter 32 ;! A_WIDTH $end
+$var parameter 32 <! B_WIDTH $end
+$var parameter 32 =! OUT_WIDTH $end
+$var parameter 32 >! ALU_FUN_WIDTH $end
 $var wire 1 9 A [7] $end
 $var wire 1 : A [6] $end
 $var wire 1 ; A [5] $end
@@ -281,13 +233,13 @@ $var wire 1 G B [1] $end
 $var wire 1 H B [0] $end
 $var wire 1 K ALU_FUN [1] $end
 $var wire 1 L ALU_FUN [0] $end
-$var wire 1 S Shift_Enable $end
+$var wire 1 U Shift_Enable $end
 $var wire 1 N CLK $end
 $var wire 1 O RST $end
-$var reg 8 @! Shift_OUT [7:0] $end
-$var reg 1 A! OUT_VALID $end
-$var reg 8 B! Shift_Result [7:0] $end
-$var reg 1 C! VALID $end
+$var reg 8 ?! Shift_OUT [7:0] $end
+$var reg 1 @! OUT_VALID $end
+$var reg 8 A! Shift_Result [7:0] $end
+$var reg 1 B! VALID $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -300,30 +252,30 @@ b0 (
 0)
 0*
 0+
-0z
-b0 {
-0|
+b0 P
+0Q
+b0 z
+0{
 0}
 0~
 0!!
-b0 "!
-0#!
-b0 (!
-0)!
-b0 *!
-0+!
-b0 0!
-01!
-b0 2!
-03!
-b0 8!
-09!
-b0 :!
-0;!
-b0 @!
-0A!
-b0 B!
-0C!
+0"!
+b0 '!
+0(!
+b0 )!
+0*!
+b0 /!
+00!
+b0 1!
+02!
+b0 7!
+08!
+b0 9!
+0:!
+b0 ?!
+0@!
+b0 A!
+0B!
 b1000 !
 b1000 "
 b1000 #
@@ -333,24 +285,23 @@ b1000 5
 b1000 6
 b1000 7
 b100 8
-b1000 x
-b10 y
+b10 |
+b1000 #!
 b1000 $!
 b1000 %!
-b1000 &!
-b10 '!
+b10 &!
+b1000 +!
 b1000 ,!
 b1000 -!
-b1000 .!
-b10 /!
+b10 .!
+b1000 3!
 b1000 4!
 b1000 5!
-b1000 6!
-b10 7!
+b10 6!
+b1000 ;!
 b1000 <!
 b1000 =!
-b1000 >!
-b10 ?!
+b10 >!
 03
 02
 01
@@ -360,46 +311,46 @@ b10 ?!
 0-
 0,
 04
-0P
-0Q
 0R
 0S
+0T
+0U
+0]
+0\
 0[
 0Z
 0Y
 0X
 0W
 0V
-0U
-0T
+0e
+0d
 0c
 0b
 0a
 0`
 0_
 0^
-0]
-0\
+0m
+0l
 0k
 0j
 0i
 0h
 0g
 0f
-0e
-0d
+0u
+0t
 0s
 0r
 0q
 0p
 0o
 0n
-0m
-0l
-0t
-0u
 0v
 0w
+0x
+0y
 0O
 0N
 0M
@@ -445,31 +396,29 @@ b10 '
 1>
 1M
 0N
-1|
-1P
-b111 *!
-1+!
+1}
+1R
+b111 )!
+1*!
 #250000
 1*
 1N
-b111 (!
-1)!
+b111 '!
+1(!
+1]
+1\
 1[
-1Z
-1Y
-1t
-0|
-1|
-b111 "!
-1#!
+1v
+b111 z
+1{
 #300000
 0*
 0N
 #350000
 1*
 1N
-b111 {
-1z
+b111 P
+1Q
 13
 12
 11
@@ -491,27 +440,29 @@ b1 (
 0*
 1L
 0N
-0+!
-b11 *!
-1+!
+b0 z
+0{
+b111 z
+1{
+0*!
+b11 )!
+1*!
 #650000
 1*
 1N
-b11 (!
-0Y
-0|
-b0 "!
-0#!
-1|
-b11 "!
-1#!
+b11 '!
+0[
+b0 z
+0{
+b11 z
+1{
 #700000
 0*
 0N
 #750000
 1*
 1N
-b11 {
+b11 P
 01
 #800000
 0*
@@ -531,28 +482,30 @@ b10 (
 0L
 1K
 0N
-0+!
-b1010 *!
-1+!
+b0 z
+0{
+b11 z
+1{
+0*!
+b1010 )!
+1*!
 #1050000
 1*
 1N
-b1010 (!
-0[
-1X
-0|
-b0 "!
-0#!
-1|
-b1010 "!
-1#!
+b1010 '!
+0]
+1Z
+b0 z
+0{
+b1010 z
+1{
 #1100000
 0*
 0N
 #1150000
 1*
 1N
-b1010 {
+b1010 P
 03
 10
 #1200000
@@ -574,27 +527,29 @@ b11 (
 1L
 0@
 0N
-0+!
-b10 *!
-1+!
+b0 z
+0{
+b1010 z
+1{
+0*!
+b10 )!
+1*!
 #1450000
 1*
 1N
-b10 (!
-0X
-0|
-b0 "!
-0#!
-1|
-b10 "!
-1#!
+b10 '!
+0Z
+b0 z
+0{
+b10 z
+1{
 #1500000
 0*
 0N
 #1550000
 1*
 1N
-b10 {
+b10 P
 00
 #1600000
 0*
@@ -617,41 +572,39 @@ b100 (
 1J
 1@
 0N
-0|
-b0 "!
-0#!
-1}
-0+!
-b111 *!
-1+!
-0P
-1Q
-13!
-0+!
-b0 *!
+0}
+1~
+b0 z
+0{
+0*!
+b111 )!
+1*!
+0R
+1S
+12!
+0*!
+b0 )!
 #1850000
 1*
 1N
-b0 {
-0z
-b0 (!
-0)!
-11!
+b0 P
+0Q
+b0 '!
+0(!
+10!
 02
 04
-0Z
-0t
-1u
-0}
-1}
-1#!
+0\
+0v
+1w
+1{
 #1900000
 0*
 0N
 #1950000
 1*
 1N
-1z
+1Q
 14
 #2000000
 0*
@@ -670,28 +623,28 @@ b101 (
 0*
 1L
 0N
-03!
-b111 2!
-13!
+0{
+1{
+02!
+b111 1!
+12!
 #2250000
 1*
 1N
-b111 0!
+b111 /!
+1e
+1d
 1c
-1b
-1a
-0}
-0#!
-1}
-b111 "!
-1#!
+0{
+b111 z
+1{
 #2300000
 0*
 0N
 #2350000
 1*
 1N
-b111 {
+b111 P
 13
 12
 11
@@ -716,32 +669,34 @@ b110 (
 0G
 1F
 0N
-03!
-b11111011 2!
-13!
+b0 z
+0{
+b111 z
+1{
+02!
+b11111011 1!
+12!
 #2650000
 1*
 1N
-b11111011 0!
-0a
+b11111011 /!
+0c
+1b
+1a
 1`
 1_
 1^
-1]
-1\
-0}
-b0 "!
-0#!
-1}
-b11111011 "!
-1#!
+b0 z
+0{
+b11111011 z
+1{
 #2700000
 0*
 0N
 #2750000
 1*
 1N
-b11111011 {
+b11111011 P
 01
 10
 1/
@@ -768,28 +723,30 @@ b111 (
 1G
 0F
 0N
-03!
-b11111000 2!
-13!
+b0 z
+0{
+b11111011 z
+1{
+02!
+b11111000 1!
+12!
 #3050000
 1*
 1N
-b11111000 0!
-0c
-0b
-0}
-b0 "!
-0#!
-1}
-b11111000 "!
-1#!
+b11111000 /!
+0e
+0d
+b0 z
+0{
+b11111000 z
+1{
 #3100000
 0*
 0N
 #3150000
 1*
 1N
-b11111000 {
+b11111000 P
 03
 02
 #3200000
@@ -812,48 +769,46 @@ b1000 (
 0J
 1I
 0N
-0}
-b0 "!
-0#!
-1~
-03!
-b0 2!
-13!
-0Q
-1R
-1;!
-03!
+0~
+1!!
+b0 z
+0{
+02!
+b0 1!
+12!
+0S
+1T
+1:!
+02!
 #3450000
 1*
 1N
-b0 {
-0z
-b0 0!
-01!
-19!
+b0 P
+0Q
+b0 /!
+00!
+18!
 00
 0/
 0.
 0-
 0,
 04
+0b
+0a
 0`
 0_
 0^
-0]
-0\
-0u
-1v
-0~
-1~
-1#!
+0w
+1x
+1{
 #3500000
 0*
 0N
 #3550000
 1*
 1N
-1z
+1Q
 14
 #3600000
 0*
@@ -876,26 +831,26 @@ b1001 (
 0G
 1F
 0N
-0;!
-b1 :!
-1;!
+0{
+1{
+0:!
+b1 9!
+1:!
 #3850000
 1*
 1N
-b1 8!
-1k
-0~
-0#!
-1~
-b1 "!
-1#!
+b1 7!
+1m
+0{
+b1 z
+1{
 #3900000
 0*
 0N
 #3950000
 1*
 1N
-b1 {
+b1 P
 13
 #4000000
 0*
@@ -916,26 +871,24 @@ b10 '
 1G
 0F
 0N
-0;!
-b0 :!
-1;!
+0:!
+b0 9!
+1:!
 #4250000
 1*
 1N
-b0 8!
-0k
-0~
-b0 "!
-0#!
-1~
-1#!
+b0 7!
+0m
+b0 z
+0{
+1{
 #4300000
 0*
 0N
 #4350000
 1*
 1N
-b0 {
+b0 P
 03
 #4400000
 0*
@@ -955,26 +908,26 @@ b1010 (
 0L
 1K
 0N
-0;!
-b10 :!
-1;!
+0{
+1{
+0:!
+b10 9!
+1:!
 #4650000
 1*
 1N
-b10 8!
-1j
-0~
-0#!
-1~
-b10 "!
-1#!
+b10 7!
+1l
+0{
+b10 z
+1{
 #4700000
 0*
 0N
 #4750000
 1*
 1N
-b10 {
+b10 P
 12
 #4800000
 0*
@@ -999,26 +952,24 @@ b101 '
 1?
 0>
 0N
-0;!
-b0 :!
-1;!
+0:!
+b0 9!
+1:!
 #5050000
 1*
 1N
-b0 8!
-0j
-0~
-b0 "!
-0#!
-1~
-1#!
+b0 7!
+0l
+b0 z
+0{
+1{
 #5100000
 0*
 0N
 #5150000
 1*
 1N
-b0 {
+b0 P
 02
 #5200000
 0*
@@ -1037,27 +988,27 @@ b1011 (
 0*
 1L
 0N
-0;!
-b11 :!
-1;!
+0{
+1{
+0:!
+b11 9!
+1:!
 #5450000
 1*
 1N
-b11 8!
-1k
-1j
-0~
-0#!
-1~
-b11 "!
-1#!
+b11 7!
+1m
+1l
+0{
+b11 z
+1{
 #5500000
 0*
 0N
 #5550000
 1*
 1N
-b11 {
+b11 P
 13
 12
 #5600000
@@ -1083,27 +1034,25 @@ b10 '
 0?
 1>
 0N
-0;!
-b0 :!
-1;!
+0:!
+b0 9!
+1:!
 #5850000
 1*
 1N
-b0 8!
-0k
-0j
-0~
-b0 "!
-0#!
-1~
-1#!
+b0 7!
+0m
+0l
+b0 z
+0{
+1{
 #5900000
 0*
 0N
 #5950000
 1*
 1N
-b0 {
+b0 P
 03
 02
 #6000000
@@ -1125,39 +1074,37 @@ b1100 (
 0K
 1J
 0N
-0~
-0#!
-1!!
-0;!
-1;!
-0R
-1S
-b10 B!
-1C!
-0;!
+0!!
+1"!
+0{
+0:!
+1:!
+0T
+1U
+b10 A!
+1B!
+0:!
 #6250000
 1*
 1N
-0z
-09!
-b10 @!
-1A!
+0Q
+08!
+b10 ?!
+1@!
 04
-0v
-1r
-1w
-0!!
-1!!
-b10 "!
-1#!
+0x
+1t
+1y
+b10 z
+1{
 #6300000
 0*
 0N
 #6350000
 1*
 1N
-b10 {
-1z
+b10 P
+1Q
 12
 14
 #6400000
@@ -1177,27 +1124,29 @@ b1101 (
 0*
 1L
 0N
-0C!
-b1010 B!
-1C!
+b0 z
+0{
+b10 z
+1{
+0B!
+b1010 A!
+1B!
 #6650000
 1*
 1N
-b1010 @!
-1p
-0!!
-b0 "!
-0#!
-1!!
-b1010 "!
-1#!
+b1010 ?!
+1r
+b0 z
+0{
+b1010 z
+1{
 #6700000
 0*
 0N
 #6750000
 1*
 1N
-b1010 {
+b1010 P
 10
 #6800000
 0*
@@ -1217,29 +1166,31 @@ b1110 (
 0L
 1K
 0N
-0C!
-b1 B!
-1C!
+b0 z
+0{
+b1010 z
+1{
+0B!
+b1 A!
+1B!
 #7050000
 1*
 1N
-b1 @!
-1s
+b1 ?!
+1u
+0t
 0r
-0p
-0!!
-b0 "!
-0#!
-1!!
-b1 "!
-1#!
+b0 z
+0{
+b1 z
+1{
 #7100000
 0*
 0N
 #7150000
 1*
 1N
-b1 {
+b1 P
 13
 02
 00
@@ -1260,28 +1211,30 @@ b1111 (
 0*
 1L
 0N
-0C!
-b100 B!
-1C!
+b0 z
+0{
+b1 z
+1{
+0B!
+b100 A!
+1B!
 #7450000
 1*
 1N
-b100 @!
-0s
-1q
-0!!
-b0 "!
-0#!
-1!!
-b100 "!
-1#!
+b100 ?!
+0u
+1s
+b0 z
+0{
+b100 z
+1{
 #7500000
 0*
 0N
 #7550000
 1*
 1N
-b100 {
+b100 P
 03
 11
 #7600000
