@@ -1,3 +1,10 @@
+/********************************************************************************************/
+/********************************************************************************************/
+/**************************		Author: Alyaa Mohamed    ************************************/
+/**************************		Module: edge_bit_counter ************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
 module edge_bit_counter #(parameter PRESCALE_WIDTH = 6)
 (
     input   wire                                enable              ,
@@ -17,7 +24,7 @@ module edge_bit_counter #(parameter PRESCALE_WIDTH = 6)
 /********************************************************************************************/
 /********************************************************************************************/
 
-    assign edge_cnt_done = (edge_cnt == Prescale) ? 1'b1 : 1'b0     ; 
+    assign edge_cnt_done = (edge_cnt == (Prescale-1)) ? 1'b1 : 1'b0 ; 
 
 /********************************************************************************************/
 /********************************************************************************************/
@@ -26,15 +33,21 @@ module edge_bit_counter #(parameter PRESCALE_WIDTH = 6)
         begin
 
             if(!RST)
-
+                    
                 edge_cnt <= 'b0                                     ;
+    
+            else if (enable) 
                 
-            else if( (enable) && (!edge_cnt_done) )
-                
-                edge_cnt <= edge_cnt + 'd1                          ;
+                if(!edge_cnt_done) 
+
+                    edge_cnt <= edge_cnt + 'b1                      ;
+
+                else
+
+                    edge_cnt <= 'b0                                 ;
 
             else
-
+                    
                 edge_cnt <= 'b0                                     ;
 
         end
@@ -49,13 +62,17 @@ module edge_bit_counter #(parameter PRESCALE_WIDTH = 6)
 
                 bit_cnt <= 'b0                                      ;
                 
-            else if( (enable) && (edge_cnt_done) )
-                
-                bit_cnt <= bit_cnt + 'd1                            ;
+            else if(enable) 
+                begin
 
+                    if (edge_cnt_done) 
+                
+                        bit_cnt <= bit_cnt + 'd1                    ;
+                        
+                end
             else
 
-                edge_cnt <= 'b0                                     ;
+                bit_cnt <= 'b0                                      ;
 
         end    
 

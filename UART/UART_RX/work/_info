@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/UART/UART_RX
 vdata_sampling
-Z1 !s110 1660151303
+Z1 !s110 1660766886
 !i10b 1
-!s100 ;g:4f5><enU`CQgzSl9<<3
-IQ8XPTGS8kNKOmG06XTCOK2
+!s100 :Zc9l7>ikcOSj`1JEf?@?1
+I2976d@MOaazMM1MMndccc3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1660149350
+w1660748826
 8data_sampling.v
 Fdata_sampling.v
 L0 1
@@ -23,19 +23,19 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1660151303.000000
-Z5 !s107 UART_RX.V|strt_check.v|stop_check.v|parity_check.v|FSM_RX.v|edge_bit_counter.v|deserializer.v|data_sampling.v|
-Z6 !s90 data_sampling.v|deserializer.v|edge_bit_counter.v|FSM_RX.v|parity_check.v|stop_check.v|strt_check.v|UART_RX.V|
+Z4 !s108 1660766886.000000
+Z5 !s107 UART_RX_tb.v|UART_RX.V|strt_check.v|stop_check.v|parity_check.v|FSM_RX.v|edge_bit_counter.v|deserializer.v|data_sampling.v|
+Z6 !s90 data_sampling.v|deserializer.v|edge_bit_counter.v|FSM_RX.v|parity_check.v|stop_check.v|strt_check.v|UART_RX.V|UART_RX_tb.v|
 !i113 1
 Z7 tCvgOpt 0
 vdeserializer
 R1
 !i10b 1
-!s100 UMOKa9:4_mn2fkH8e:g>o0
-IkZ]hDo0?aAJcPPP2UEf]42
+!s100 gbS;KEPUU7zFm<dT>GNd32
+IS377W@h_J6=jY8m2H@Z;H2
 R2
 R0
-w1660149636
+w1660766881
 8deserializer.v
 Fdeserializer.v
 L0 1
@@ -51,11 +51,11 @@ R7
 vedge_bit_counter
 R1
 !i10b 1
-!s100 4J3R8Vc_>jReDfE4Wn^Oz2
-I]TJ52:]o0d?cSLP@`^>NY0
+!s100 3kWR5@KLejIFC`>7PNRQ82
+IUd;TGOiOFd8okUgJmQgoB0
 R2
 R0
-w1660149332
+w1660750806
 8edge_bit_counter.v
 Fedge_bit_counter.v
 L0 1
@@ -75,7 +75,7 @@ R1
 IB]?Jfl5V?`:N_@Q]?TC7U3
 R2
 R0
-w1660149357
+w1660749071
 8FSM_RX.v
 FFSM_RX.v
 L0 1
@@ -92,11 +92,11 @@ n@f@s@m_@r@x
 vparity_check
 R1
 !i10b 1
-!s100 ?Y6:6Bnh[g7g<zgTT5dca2
-IS:Q0SOScnEb3XhiJ<UH743
+!s100 `=lVRIILz[JQDkT<HG<S30
+I1DW:K2QL6KL<WTe]gBgVb1
 R2
 R0
-w1658761368
+w1660662018
 8parity_check.v
 Fparity_check.v
 L0 1
@@ -112,11 +112,11 @@ R7
 vstop_check
 R1
 !i10b 1
-!s100 RN7C6fL:[mg0b;KkTedD=1
-ILWRGoiIFjb`l?OB;EAB6T3
+!s100 1ZMjeJ9?3IOV1z6jQ2BIB3
+Iah37<`CL8Bjfi2cmVzUK31
 R2
 R0
-w1658756177
+w1660662287
 8stop_check.v
 Fstop_check.v
 L0 1
@@ -152,11 +152,11 @@ R7
 vUART_RX
 R1
 !i10b 1
-!s100 j6=SM5F3if8zdBb`1gF?f0
-I4UN`1VUQMnmdQXQi7`bjS1
+!s100 Ee_0<C34e<MFHMCA^eLZA2
+IQDfkAd:hn>fe^3PaY6>gJ2
 R2
 R0
-w1660151300
+w1660751917
 8UART_RX.V
 FUART_RX.V
 L0 1
@@ -170,3 +170,24 @@ R6
 !i113 1
 R7
 n@u@a@r@t_@r@x
+vUART_RX_tb
+R1
+!i10b 1
+!s100 mHh3aHnHb`_MR9EljXef]1
+Ia@SaQ0z:FT2iE66XMIcZ?2
+R2
+R0
+w1660765662
+8UART_RX_tb.v
+FUART_RX_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@u@a@r@t_@r@x_tb

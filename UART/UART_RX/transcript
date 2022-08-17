@@ -1,0 +1,29 @@
+# ERROR: No extended dataflow license exists
+# vsim work.UART_RX_tb 
+# Start time: 22:08:18 on Aug 17,2022
+# Loading work.UART_RX_tb
+# Loading work.UART_RX
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.parity_check
+# Loading work.stop_check
+# Loading work.strt_check
+run
+# 
+# 
+# The Data is : 01010101
+# 
+# 
+# 
+# 
+# The Data is : 01111101
+# 
+# 
+# ** Note: $finish    : UART_RX_tb.v(64)
+#    Time: 401100 ns  Iteration: 0  Instance: /UART_RX_tb
+# 1
+# Break in Module UART_RX_tb at UART_RX_tb.v line 64
+# End time: 22:08:40 on Aug 17,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0

@@ -1,10 +1,17 @@
+/********************************************************************************************/
+/********************************************************************************************/
+/**************************		Author: Alyaa Mohamed    ************************************/
+/**************************		Module: FSM_RX           ************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
 module FSM_RX #(parameter PRESCALE_WIDTH = 6)
 (
     input   wire                            RX_IN                   ,
     input   wire                            PAR_EN                  ,
     input   wire  [PRESCALE_WIDTH - 1 :0]   edge_cnt                ,
     input   wire  [PRESCALE_WIDTH - 2 :0]   bit_cnt                 ,
-    input   wire  [PRESCALE_WIDTH - 1:0]    Prescale                ,
+    input   wire  [PRESCALE_WIDTH - 1 :0]   Prescale               ,
     input   wire                            stp_err                 ,
     input   wire                            strt_glitch             ,
     input   wire                            par_err                 ,

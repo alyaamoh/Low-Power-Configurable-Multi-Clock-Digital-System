@@ -1,3 +1,10 @@
+/********************************************************************************************/
+/********************************************************************************************/
+/**************************		Author: Alyaa Mohamed    ************************************/
+/**************************		Module: UART_RX          ************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
 module UART_RX #(parameter DATA_WIDTH = 8, PRESCALE_WIDTH = 6) 
 (
     input   wire                                PAR_EN          ,
@@ -7,8 +14,8 @@ module UART_RX #(parameter DATA_WIDTH = 8, PRESCALE_WIDTH = 6)
     input   wire                                CLK             ,
     input   wire                                RST             ,
 
-    output  reg    [DATA_WIDTH - 1 : 0]         P_DATA          ,
-    output  reg                                 data_valid
+    output  wire   [DATA_WIDTH - 1 : 0]         P_DATA          ,
+    output  wire                                data_valid
 );
 
 /********************************************************************************************/
@@ -46,11 +53,13 @@ module UART_RX #(parameter DATA_WIDTH = 8, PRESCALE_WIDTH = 6)
 /********************************************************************************************/
 /********************************************************************************************/
 
-    deserializer #(.DATA_WIDTH(DATA_WIDTH))
+    deserializer #(.DATA_WIDTH(DATA_WIDTH),.PRESCALE_WIDTH(PRESCALE_WIDTH))
     deser
     (
         .deser_en(deser_en)                                     ,
         .sampled_bit(sampled_bit)                               ,
+        .edge_cnt(edge_cnt)                                     ,
+        .Prescale(Prescale)                                     ,
         .CLK(CLK)                                               ,
         .RST(RST)                                               ,
 

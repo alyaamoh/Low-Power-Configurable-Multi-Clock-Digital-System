@@ -1,3 +1,10 @@
+/********************************************************************************************/
+/********************************************************************************************/
+/**************************		Author: Alyaa Mohamed    ************************************/
+/**************************		Module: parity_check     ************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
 module parity_check #(parameter DATA_WIDTH = 8)
 (
     input   wire                        PAR_TYP                                 ,
@@ -18,21 +25,16 @@ module parity_check #(parameter DATA_WIDTH = 8)
 /********************************************************************************************/
 /*********************************Calculate the parity***************************************/
 
-    always @(posedge CLK or negedge RST)
+    always @(*)
         begin
-
-            if(!RST)
-            
-                par_bit <= 1'b0                                                 ;
-            
-            else if(par_chk_en)
+            if(par_chk_en)
                 begin
 
                     case(PAR_TYP)
                     
-                        1'b0:    par_bit <= ^P_DATA                             ;
-                        1'b1:    par_bit <= ~^P_DATA                            ;
-                        default: par_bit <= 1'd0		                        ;
+                        1'b0:    par_bit = ^P_DATA                              ;
+                        1'b1:    par_bit = ~^P_DATA                             ;
+                        default: par_bit = 1'd0		                            ;
                     
                     endcase
                 
@@ -56,6 +58,10 @@ module parity_check #(parameter DATA_WIDTH = 8)
                     if(par_bit != sampled_bit)
 
                         par_err <= 1'b1                                         ;
+
+                    else
+
+                        par_err <= 1'b0                                         ;
                 
                 end
 
