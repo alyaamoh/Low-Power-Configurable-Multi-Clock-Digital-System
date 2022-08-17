@@ -151,4 +151,5 @@ module UART_RX #(parameter DATA_WIDTH = 8, PRESCALE_WIDTH = 6)
         .strt_glitch(strt_glitch)
     );
 
+
 endmodule
