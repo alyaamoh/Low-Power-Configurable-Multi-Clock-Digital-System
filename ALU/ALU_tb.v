@@ -11,7 +11,7 @@ module ALU_tb();
 
 	parameter 	A_WIDTH_tb 		 = 8								,
 				B_WIDTH_tb 		 = 8 								,
-				OUT_WIDTH_tb 	 = 8								, 
+				OUT_WIDTH_tb 	 = 16								, 
 				ALU_FUN_WIDTH_tb = 4								;
 			
 /********************************************************************************************/

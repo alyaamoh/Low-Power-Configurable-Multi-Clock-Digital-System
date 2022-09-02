@@ -5,7 +5,7 @@
 /********************************************************************************************/
 /********************************************************************************************/
 
-module ALU_Top #(parameter 	A_WIDTH = 8	, B_WIDTH = 8 , OUT_WIDTH = 8, ALU_FUN_WIDTH = 4)
+module ALU_Top #(parameter 	A_WIDTH = 8	, B_WIDTH = 8 , OUT_WIDTH = 16, ALU_FUN_WIDTH = 4)
 (	
 	input  wire [A_WIDTH-1:0] 			A							,
 	input  wire [B_WIDTH-1:0] 			B							,
