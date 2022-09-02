@@ -1,0 +1,74 @@
+# ERROR: No extended dataflow license exists
+# vsim work.SYST_CTRL 
+# Start time: 19:08:23 on Sep 02,2022
+# Loading work.SYST_CTRL
+add wave -position insertpoint  \
+sim:/SYST_CTRL/RdData \
+sim:/SYST_CTRL/RdData_Valid \
+sim:/SYST_CTRL/ALU_OUT \
+sim:/SYST_CTRL/ALU_OUT_VALID \
+sim:/SYST_CTRL/RX_P_DATA \
+sim:/SYST_CTRL/RX_data_valid \
+sim:/SYST_CTRL/TX_Busy \
+sim:/SYST_CTRL/REF_CLK \
+sim:/SYST_CTRL/RST \
+sim:/SYST_CTRL/WrData \
+sim:/SYST_CTRL/Address \
+sim:/SYST_CTRL/WrEn \
+sim:/SYST_CTRL/RdEn \
+sim:/SYST_CTRL/CLK_EN \
+sim:/SYST_CTRL/CLK_DIV_EN \
+sim:/SYST_CTRL/ALU_FUN \
+sim:/SYST_CTRL/ALU_EN \
+sim:/SYST_CTRL/TX_P_DATA \
+sim:/SYST_CTRL/TX_DATA_VALID \
+sim:/SYST_CTRL/current_state \
+sim:/SYST_CTRL/next_state
+force -freeze sim:/SYST_CTRL/RdData 'd6 0
+force -freeze sim:/SYST_CTRL/RdData_Valid 1 0
+force -freeze sim:/SYST_CTRL/ALU_OUT 'd12 0
+force -freeze sim:/SYST_CTRL/ALU_OUT_VALID 1 0
+force -freeze sim:/SYST_CTRL/RX_P_DATA 'hAA 0
+force -freeze sim:/SYST_CTRL/RX_data_valid 1 0
+force -freeze sim:/SYST_CTRL/TX_Busy 0 0
+force -freeze sim:/SYST_CTRL/REF_CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/SYST_CTRL/RST 0 0
+run
+force -freeze sim:/SYST_CTRL/RST St1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/SYST_CTRL/RX_P_DATA 'hCC 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/SYST_CTRL/ALU_OUT 0001100000001100 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 19:50:26 on Sep 02,2022, Elapsed time: 0:42:03
+# Errors: 0, Warnings: 0
