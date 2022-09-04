@@ -5,7 +5,7 @@
 /********************************************************************************************/
 /********************************************************************************************/
 
-module Register8x16 #(parameter WIDTH = 16, DEPTH = 8, ADDRESS_WIDTH = 4)			
+module Register8x16 #(parameter WIDTH = 8, DEPTH = 16, ADDRESS_WIDTH = 4)			
 (			
 	input 	wire [WIDTH-1:0] 			WrData					,
 	input 	wire [ADDRESS_WIDTH-1:0] 	Address					,

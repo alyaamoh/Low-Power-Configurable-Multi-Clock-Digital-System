@@ -5,9 +5,9 @@
 /********************************************************************************************/
 /********************************************************************************************/
 
-module SYST_CTRL #(parameter REG_WIDTH = 16, ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH = 16, DATA_WIDTH = 8)
+module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH = 16, DATA_WIDTH = 8)
 (
-    input wire [REG_WIDTH     - 1 : 0]		RdData					                ,
+    input wire [DATA_WIDTH    - 1 : 0]		RdData					                ,
     input wire						        RdData_Valid			                ,
 
     input wire [ALU_OUT_WIDTH - 1 : 0] 	    ALU_OUT					                ,	
@@ -22,7 +22,7 @@ module SYST_CTRL #(parameter REG_WIDTH = 16, ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 
     input wire		  				        RST						                ,
 
 
-    output reg [REG_WIDTH     - 1 : 0]      WrData					                ,
+    output reg [DATA_WIDTH    - 1 : 0]      WrData					                ,
     output reg [ADDRESS_WIDTH - 1 : 0] 	    Address					                ,
     output reg		  				        WrEn					                ,
     output reg		  				        RdEn					                ,
