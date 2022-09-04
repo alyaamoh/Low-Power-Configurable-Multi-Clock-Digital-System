@@ -5,7 +5,7 @@
 /********************************************************************************************/
 /********************************************************************************************/
 
-module TOP # #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH = 16, DATA_WIDTH = 8, NUM_STAGES = 2, PRESCALE_WIDTH = 6)
+module TOP #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH = 16, DATA_WIDTH = 8, NUM_STAGES = 2, PRESCALE_WIDTH = 6)
 (
     input   wire                            RST                     ,
     input   wire                            UART_CLK                ,
@@ -126,7 +126,7 @@ module TOP # #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, A
 /*****************************************************************************************/
 /*****************************************************************************************/
 
-    ClkDiv #(.WIDTH(WIDTH))
+    ClkDiv #(.WIDTH(3))
     CLK_DIV
     (
         .i_ref_clk(UART_CLK)                                        ,
@@ -236,6 +236,7 @@ module TOP # #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, A
 /*****************************************************************************************/
 
     ALU_Top #(.A_WIDTH(DATA_WIDTH), .B_WIDTH(DATA_WIDTH), .OUT_WIDTH(ALU_OUT_WIDTH), .ALU_FUN_WIDTH(ALU_FUN_WIDTH))
+    ALU
     (	
         .A(Operand_A)							                    ,
         .B(Operand_B)							                    ,

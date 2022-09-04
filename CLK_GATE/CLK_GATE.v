@@ -10,7 +10,7 @@ module CLK_GATE
   input   wire      CLK_EN              ,
   input   wire      CLK                 ,
 
-  output  reg       GATED_CLK
+  output  wire      GATED_CLK
 );
 
 /********************************************************************************************/
