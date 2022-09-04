@@ -126,7 +126,7 @@ module TOP #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, ALU
 /*****************************************************************************************/
 /*****************************************************************************************/
 
-    ClkDiv #(.WIDTH(3))
+    ClkDiv #(.WIDTH(4))
     CLK_DIV
     (
         .i_ref_clk(UART_CLK)                                        ,
@@ -156,7 +156,7 @@ module TOP #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, ALU
     UART_TX_RX 
     (
         .PAR_EN(UART_Config[0])                                     ,
-        .Prescale(UART_Config[6:2])                                 ,
+        .Prescale({1'b0,UART_Config[6:2]})                          ,
         .PAR_TYP(UART_Config[1])                                    ,
 
         .RX_CLK(RX_CLK)                                             ,
