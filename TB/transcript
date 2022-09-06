@@ -1,0 +1,64 @@
+# ERROR: No extended dataflow license exists
+# vsim work.TOP_tb 
+# Start time: 20:47:42 on Sep 06,2022
+# Loading work.TOP_tb
+# Loading work.TOP
+# Loading work.RST_Sync
+# Loading work.Data_Sync
+# Loading work.BIT_SYNC
+# Loading work.ClkDiv
+# Loading work.CLK_GATE
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.data_sampling
+# Loading work.deserializer
+# Loading work.edge_bit_counter
+# Loading work.FSM_RX
+# Loading work.parity_check
+# Loading work.stop_check
+# Loading work.strt_check
+# Loading work.UART_TX
+# Loading work.MUX
+# Loading work.serializer
+# Loading work.parity_calc
+# Loading work.FSM
+# Loading work.SYST_CTRL
+# Loading work.Register8x16
+# Loading work.ALU_Top
+# Loading work.Decoder
+# Loading work.Arithmetic_unit
+# Loading work.Logic_unit
+# Loading work.CMP_unit
+# Loading work.Shift_unit
+run
+# 
+# 
+# TX OUT = 1
+# 
+# 
+# 
+# 
+# TX OUT = 0
+# 
+# 
+# 
+# 
+# TX OUT = 1
+# 
+# 
+# 
+# 
+# TX OUT = 0
+# 
+# 
+# 
+# 
+# TX OUT = 1
+# 
+# 
+# ** Note: $finish    : TOP_tb.v(74)
+#    Time: 80040 ns  Iteration: 0  Instance: /TOP_tb
+# 1
+# Break in Module TOP_tb at TOP_tb.v line 74
+# End time: 20:48:20 on Sep 06,2022, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0

@@ -1,0 +1,611 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/ALL
+vALU_Top
+Z1 !s110 1662490052
+!i10b 1
+!s100 lWY_8jjK8eK7dH4I0[deo3
+IFhKTlLz6;6zM8cZ=0T0:O0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1662127636
+8ALU_Top.v
+FALU_Top.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1662490052.000000
+Z5 !s107 UART_TX.v|UART_RX.V|UART.v|TOP_tb.v|TOP.v|SYST_CTRL.v|strt_check.v|stop_check.v|Shift_unit.v|serializer.v|RST_Sync.v|Register8x16.v|parity_check.v|parity_calc.v|MUX.v|Logic_unit.v|FSM_RX.v|FSM.v|edge_bit_counter.v|deserializer.v|Decoder.v|Data_Sync.v|data_sampling.v|CMP_unit.v|CLK_GATE.v|ClkDiv.v|BIT_SYNC.v|Arithmetic_unit.v|ALU_Top.v|
+Z6 !s90 ALU_Top.v|Arithmetic_unit.v|BIT_SYNC.v|ClkDiv.v|CLK_GATE.v|CMP_unit.v|data_sampling.v|Data_Sync.v|Decoder.v|deserializer.v|edge_bit_counter.v|FSM.v|FSM_RX.v|Logic_unit.v|MUX.v|parity_calc.v|parity_check.v|Register8x16.v|RST_Sync.v|serializer.v|Shift_unit.v|stop_check.v|strt_check.v|SYST_CTRL.v|TOP.v|TOP_tb.v|UART.v|UART_RX.V|UART_TX.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u_@top
+vArithmetic_unit
+R1
+!i10b 1
+!s100 8;iO`oKGJS_7i0f238Tzc2
+If;JfIj?5k4PWm7jd]8WiF2
+R2
+R0
+w1662127970
+8Arithmetic_unit.v
+FArithmetic_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@arithmetic_unit
+vBIT_SYNC
+R1
+!i10b 1
+!s100 @CzJ>DfE;AF8VeLB:6:GG1
+IEE=1UdH0E92FZSG<C42M:2
+R2
+R0
+w1658427954
+8BIT_SYNC.v
+FBIT_SYNC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@b@i@t_@s@y@n@c
+vCLK_GATE
+R1
+!i10b 1
+!s100 BZY;__Tcbm0RP?CIko``n2
+IU49h3jK;4EQNXNT8gae2o2
+R2
+R0
+w1662306672
+8CLK_GATE.v
+FCLK_GATE.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@c@l@k_@g@a@t@e
+vClkDiv
+R1
+!i10b 1
+!s100 S0j06laWak_6doFG?[2Yo2
+I_A90]AaZPd@E[bD`zY;Ea1
+R2
+R0
+w1659885228
+8ClkDiv.v
+FClkDiv.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@clk@div
+vCMP_unit
+R1
+!i10b 1
+!s100 4OkE@O2bPj@i6SnD`iJj32
+I^RRQL<HF49nl=4W:k>I4_2
+R2
+R0
+w1662127979
+8CMP_unit.v
+FCMP_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@c@m@p_unit
+vdata_sampling
+R1
+!i10b 1
+!s100 :Zc9l7>ikcOSj`1JEf?@?1
+I2976d@MOaazMM1MMndccc3
+R2
+R0
+w1660748826
+8data_sampling.v
+Fdata_sampling.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vData_Sync
+R1
+!i10b 1
+!s100 mn0LJa_o2@4lRMBhU55;L1
+I6[3MW;V<2O]R_ffmmXi4<3
+R2
+R0
+w1662473370
+8Data_Sync.v
+FData_Sync.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@data_@sync
+vDecoder
+R1
+!i10b 1
+!s100 aL1nl9Y`YRKoW0;Q=I2f;1
+InO7L3`HCi34]GaA97Bk=L1
+R2
+R0
+w1660654034
+8Decoder.v
+FDecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@decoder
+vdeserializer
+R1
+!i10b 1
+!s100 g7fM@J1:NEmM2eo>Hb>`e3
+I;Z1FkFcL3R6HboFL=>cLU2
+R2
+R0
+w1662390717
+8deserializer.v
+Fdeserializer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vedge_bit_counter
+R1
+!i10b 1
+!s100 3kWR5@KLejIFC`>7PNRQ82
+IUd;TGOiOFd8okUgJmQgoB0
+R2
+R0
+w1660750806
+8edge_bit_counter.v
+Fedge_bit_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vFSM
+R1
+!i10b 1
+!s100 mb;3^aT`WeoE;8;VD0alU0
+I_7Z:Fb8;5nEd^[QMieFO[3
+R2
+R0
+w1660847221
+8FSM.v
+FFSM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@f@s@m
+vFSM_RX
+Z8 !s110 1662490053
+!i10b 1
+!s100 n1:GE8FRzzzOkh1JhN@Vg2
+I[P4dUGi?o7h]3X?Kh9gF21
+R2
+R0
+w1662478156
+8FSM_RX.v
+FFSM_RX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@f@s@m_@r@x
+vLogic_unit
+R8
+!i10b 1
+!s100 dEjO:CMFTBHEmZ9lA@T;:3
+I2JMO[^S;NnPF=LolJEoCg3
+R2
+R0
+w1662127988
+8Logic_unit.v
+FLogic_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@logic_unit
+vMUX
+R8
+!i10b 1
+!s100 ^Jl`mRVg_1KAdAXEWbUG^3
+In`RLegP8J3^^<EW2neA;i1
+R2
+R0
+w1657113025
+8MUX.v
+FMUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@m@u@x
+vparity_calc
+R8
+!i10b 1
+!s100 l>nFE4^a^ha4ZCBo<CZ`U1
+IQZ:aPGl7aR0cW0H[m:MYC2
+R2
+R0
+w1657114306
+8parity_calc.v
+Fparity_calc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vparity_check
+R8
+!i10b 1
+!s100 `=lVRIILz[JQDkT<HG<S30
+I1DW:K2QL6KL<WTe]gBgVb1
+R2
+R0
+w1660662018
+8parity_check.v
+Fparity_check.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vRegister8x16
+R8
+!i10b 1
+!s100 :NRdkEf=N<aV?^gLAlg420
+Inhj?NB`GzBGJ1oLdDBfM]1
+R2
+R0
+w1662387222
+8Register8x16.v
+FRegister8x16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@register8x16
+vRST_Sync
+R8
+!i10b 1
+!s100 ?hgLgLfBzB_Xc;j7c46fm3
+IGBkA2FELWTkGPG`Kn]ZfE3
+R2
+R0
+w1659104704
+8RST_Sync.v
+FRST_Sync.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@r@s@t_@sync
+vserializer
+R8
+!i10b 1
+!s100 liY^?ecXemQ;`G2bQLNoX1
+In3Km:>Y=hSC@YQ1dG9Gkl3
+R2
+R0
+w1659102523
+8serializer.v
+Fserializer.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vShift_unit
+R8
+!i10b 1
+!s100 m<fYJYiO@AFkKd<nX^JjZ2
+I26Z^gP]CARo_06O;59R5F2
+R2
+R0
+w1662127994
+8Shift_unit.v
+FShift_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@shift_unit
+vstop_check
+R8
+!i10b 1
+!s100 1ZMjeJ9?3IOV1z6jQ2BIB3
+Iah37<`CL8Bjfi2cmVzUK31
+R2
+R0
+w1660662287
+8stop_check.v
+Fstop_check.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vstrt_check
+R8
+!i10b 1
+!s100 G;0UocOBgE]fbz]6N4UIU3
+I]ZY5@cCZIZf@0T;GoDdGD3
+R2
+R0
+w1660133730
+8strt_check.v
+Fstrt_check.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vSYST_CTRL
+R8
+!i10b 1
+!s100 l?B`7L=HJhV4<9bEg373W0
+IZX14@Ianz:L?oYcOO3V>@1
+R2
+R0
+w1662473122
+8SYST_CTRL.v
+FSYST_CTRL.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@s@y@s@t_@c@t@r@l
+vTOP
+R8
+!i10b 1
+!s100 [VCW]^aM9;6G>k^DNj50S2
+I^E8Y`IA5oEkBT1MPhVzET1
+R2
+R0
+w1662477872
+8TOP.v
+FTOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@t@o@p
+vTOP_tb
+R8
+!i10b 1
+!s100 A=@e1XKj9hzab]PHBeka_2
+INg2a>P6TBbNl=PEcQ5eLS3
+R2
+R0
+w1662490050
+8TOP_tb.v
+FTOP_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@t@o@p_tb
+vUART
+R8
+!i10b 1
+!s100 9::ceBz>Qe0`D3]8A5az;2
+IASJZUSNUS91eiDU];VR2[2
+R2
+R0
+w1660853139
+8UART.v
+FUART.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@u@a@r@t
+vUART_RX
+R8
+!i10b 1
+!s100 bljW=ZW5inngFihHg=fm70
+IJSa?[imOngEK?6ZmW[ao81
+R2
+R0
+w1660751917
+8UART_RX.V
+FUART_RX.V
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@u@a@r@t_@r@x
+vUART_TX
+R8
+!i10b 1
+!s100 D;1i?5]c8Ja8IJYngfX1c0
+I3;zKXcZjk9o9`nlIk<Q3G0
+R2
+R0
+w1660852529
+8UART_TX.v
+FUART_TX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@u@a@r@t_@t@x
