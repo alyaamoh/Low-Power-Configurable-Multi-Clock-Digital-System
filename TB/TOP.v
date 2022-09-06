@@ -245,7 +245,7 @@ module TOP #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, ALU
     );
 
 /*****************************************************************************************/
-/*****************************************************************************************/
+/***************Raise the Data & Valid for a certain time to meet the edge****************/
 
     always@(posedge REF_CLK or RST_REF)
         begin
