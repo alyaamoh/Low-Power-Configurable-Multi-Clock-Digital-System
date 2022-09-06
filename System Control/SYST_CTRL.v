@@ -111,7 +111,7 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                                     RF_WRITE_CMD  : next_state = RF_Wr_Addr         ;
                                     RF_READ_CMD   : next_state = RF_Rd_Addr         ;
                                     ALU_W_OP_CMD  : next_state = ALU_OPER_W_OP_A    ;
-                                    ALU_WN_OP_CMD : next_state = ALU_FUN            ;
+                                    ALU_WN_OP_CMD : next_state = ALU_FUN_ST         ;
                                     default       : next_state = IDLE               ;
 
                                 endcase
@@ -230,7 +230,7 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                         
                         else
                         
-                            next_state = ALU_FUN                                    ;
+                            next_state = ALU_FUN_ST                                 ;
 
                     end   
 
@@ -309,9 +309,10 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
             CLK_DIV_EN    = 'b1                                                     ;
             ALU_FUN		  = 'b0                                                     ;
             ALU_EN		  = 'b0                                                     ;
-            MUX_SEL       = 'b00                                                    ;
+            //MUX_SEL       = 'b00                                                    ;
             TX_DATA_VALID = 'b0                                                     ;
             TX_P_DATA     = 'b0                                                     ;
+            Address       = 'b0                                                     ;
 
             case(current_state)
 
@@ -424,6 +425,7 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                                 WrEn		= 'b1                                   ;
                                 WrData		= RX_P_DATA                             ;
                                 Address     = 'b0                                   ;
+                                ALU_EN      = 'b0                                   ;
 
                             end
                         
@@ -434,6 +436,7 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                                 WrEn		= 'b0                                   ;
                                 WrData		= RX_P_DATA                             ;
                                 Address     = 'b0                                   ;
+                                ALU_EN      = 'b0                                   ;
                                 
                             end
 
@@ -452,6 +455,7 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                                 WrEn		= 'b1                                   ;
                                 WrData		= RX_P_DATA                             ;
                                 Address     = 'b1                                   ;
+                                ALU_EN      = 'b0                                   ;
 
                             end
                         
@@ -462,6 +466,7 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                                 WrEn		= 'b0                                   ;
                                 WrData		= RX_P_DATA                             ;
                                 Address     = 'b1                                   ;
+                                ALU_EN      = 'b0                                   ;
                                 
                             end
 
@@ -502,11 +507,13 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                     begin
 
                         CLK_EN = 'b1                                                ;
+                        ALU_EN = 'b1                                                ;
                         
                         if(ALU_OUT_VALID )
-                        
+                        begin
+                            ALU_EN      = 'b0                                       ;
                             MUX_SEL     = 'b01                                      ;
-                             
+                        end
                         else
                          
                             MUX_SEL     = 'b00                                      ;
@@ -599,8 +606,8 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
             case(MUX_SEL)
         
                 'b00    :   TX_DATA_MUX_OUT = 'b0                                   ;
-                'b01    :   TX_DATA_MUX_OUT = ALU_OUT[DATA_WIDTH:0]                 ;
-                'b11    :   TX_DATA_MUX_OUT = ALU_OUT[DATA_WIDTH*2-1:DATA_WIDTH]    ;
+                'b01    :   TX_DATA_MUX_OUT = ALU_OUT [DATA_WIDTH:0]                ;
+                'b11    :   TX_DATA_MUX_OUT = ALU_OUT [DATA_WIDTH*2-1:DATA_WIDTH]   ;
                 'b10    :   TX_DATA_MUX_OUT = RdData                                ;
                 default :   TX_DATA_MUX_OUT = 'b0                                   ;
         
@@ -637,6 +644,5 @@ module SYST_CTRL #(parameter ADDRESS_WIDTH = 4, ALU_FUN_WIDTH = 4, ALU_OUT_WIDTH
                 Address_REG <= RX_P_DATA                                            ;
         
         end
-
 
 endmodule

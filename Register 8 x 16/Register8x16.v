@@ -17,9 +17,7 @@ module Register8x16 #(parameter WIDTH = 8, DEPTH = 16, ADDRESS_WIDTH = 4)
 	output 	reg	 [WIDTH-1:0]			RdData					,
 	output	reg							RdData_Valid			,
 	output	wire [WIDTH-1:0]			REG0					,
-	output	wire [WIDTH-1:0]			REG1					,
-	output	wire [WIDTH-1:0]			REG2					,
-	output	wire [WIDTH-1:0]			REG3					
+	output	wire [WIDTH-1:0]			REG1					
 );
 
 	reg 		 [WIDTH-1:0] 			Register [DEPTH-1:0]	;
@@ -31,8 +29,6 @@ module Register8x16 #(parameter WIDTH = 8, DEPTH = 16, ADDRESS_WIDTH = 4)
 
 	assign REG0 = Register[0]									;
 	assign REG1 = Register[1]									;
-	assign REG2 = Register[2]									;
-	assign REG3 = Register[3]									;
 
 /********************************************************************************************/
 /********************************************************************************************/
