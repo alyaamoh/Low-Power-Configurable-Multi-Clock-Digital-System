@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/ALL
 vALU_Top
-Z0 !s110 1662569929
+Z0 !s110 1662572656
 !i10b 1
 !s100 lWY_8jjK8eK7dH4I0[deo3
 IFhKTlLz6;6zM8cZ=0T0:O0
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1662569928.000000
+Z4 !s108 1662572656.000000
 Z5 !s107 UART_TX.v|UART_RX.V|UART.v|TOP_tb.v|TOP.v|SYST_CTRL.v|strt_check.v|stop_check.v|Shift_unit.v|serializer.v|RST_Sync.v|Register8x16.v|parity_check.v|parity_calc.v|MUX.v|Logic_unit.v|FSM_RX.v|FSM.v|flag_TX.v|edge_bit_counter.v|deserializer.v|Decoder.v|Data_Sync.v|data_sampling.v|CMP_unit.v|CLK_GATE.v|ClkDiv.v|BIT_SYNC.v|Arithmetic_unit.v|ALU_Top.v|
 Z6 !s90 ALU_Top.v|Arithmetic_unit.v|BIT_SYNC.v|ClkDiv.v|CLK_GATE.v|CMP_unit.v|data_sampling.v|Data_Sync.v|Decoder.v|deserializer.v|edge_bit_counter.v|flag_TX.v|FSM.v|FSM_RX.v|Logic_unit.v|MUX.v|parity_calc.v|parity_check.v|Register8x16.v|RST_Sync.v|serializer.v|Shift_unit.v|stop_check.v|strt_check.v|SYST_CTRL.v|TOP.v|TOP_tb.v|UART.v|UART_RX.V|UART_TX.v|
 !i113 1
@@ -95,11 +95,11 @@ n@c@l@k_@g@a@t@e
 vClkDiv
 R0
 !i10b 1
-!s100 S0j06laWak_6doFG?[2Yo2
-I_A90]AaZPd@E[bD`zY;Ea1
+!s100 FY8Z_>Ha56K;a;QogOXDO2
+IZfCe7<ISLAGkhTXQ[O;O>1
 R1
 R2
-w1659885228
+w1662572643
 8ClkDiv.v
 FClkDiv.v
 L0 8
@@ -239,11 +239,11 @@ R7
 vflag_TX
 R0
 !i10b 1
-!s100 KHz37M3fMUfbDl6m?k<3V1
-IhfB1ZMnKPbkn=[0kTFJV@0
+!s100 2b@W1Kc?D::S;bdoAO7K^1
+IFozGj4FM6Tf>cGa8GzDb23
 R1
 R2
-w1662569897
+w1662570865
 8flag_TX.v
 Fflag_TX.v
 L0 1
@@ -465,7 +465,7 @@ R6
 R7
 n@shift_unit
 vstop_check
-R0
+Z8 !s110 1662572657
 !i10b 1
 !s100 1ZMjeJ9?3IOV1z6jQ2BIB3
 Iah37<`CL8Bjfi2cmVzUK31
@@ -485,7 +485,7 @@ R6
 !i113 1
 R7
 vstrt_check
-R0
+R8
 !i10b 1
 !s100 G;0UocOBgE]fbz]6N4UIU3
 I]ZY5@cCZIZf@0T;GoDdGD3
@@ -505,7 +505,7 @@ R6
 !i113 1
 R7
 vSYST_CTRL
-R0
+R8
 !i10b 1
 !s100 l?B`7L=HJhV4<9bEg373W0
 IZX14@Ianz:L?oYcOO3V>@1
@@ -526,13 +526,13 @@ R6
 R7
 n@s@y@s@t_@c@t@r@l
 vTOP
-R0
+R8
 !i10b 1
 !s100 c<bP?Mdlo2?gi@dJWcgn41
 IB=ijLaS:9dZ0WznNzL2_12
 R1
 R2
-w1662569924
+w1662572629
 8TOP.v
 FTOP.v
 L0 1
@@ -547,7 +547,7 @@ R6
 R7
 n@t@o@p
 vTOP_tb
-R0
+R8
 !i10b 1
 !s100 A=@e1XKj9hzab]PHBeka_2
 INg2a>P6TBbNl=PEcQ5eLS3
@@ -568,7 +568,7 @@ R6
 R7
 n@t@o@p_tb
 vUART
-R0
+R8
 !i10b 1
 !s100 9::ceBz>Qe0`D3]8A5az;2
 IASJZUSNUS91eiDU];VR2[2
@@ -589,7 +589,7 @@ R6
 R7
 n@u@a@r@t
 vUART_RX
-R0
+R8
 !i10b 1
 !s100 bljW=ZW5inngFihHg=fm70
 IJSa?[imOngEK?6ZmW[ao81
@@ -610,7 +610,7 @@ R6
 R7
 n@u@a@r@t_@r@x
 vUART_TX
-R0
+R8
 !i10b 1
 !s100 D;1i?5]c8Ja8IJYngfX1c0
 I3;zKXcZjk9o9`nlIk<Q3G0

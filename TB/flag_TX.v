@@ -10,6 +10,7 @@ module flag_TX #(parameter DATA_WIDTH = 8)
 );
 
     reg       [3:0]                         cnt_TX                      ;
+    reg                                     done;
 
     always@(posedge REF_CLK or negedge RST_REF)
             begin
@@ -22,16 +23,7 @@ module flag_TX #(parameter DATA_WIDTH = 8)
                         cnt_TX  <= 'b0                                  ;
                 
                     end
-                else if(TX_VLD)
-                    begin
-                
-                        TX_send <= TX_IN                                ;
-                        vld     <= 'b1                                  ;
-                        cnt_TX  <= cnt_TX + 'b1                         ;
-                
-                    end
-                
-                if(cnt_TX == 'b1111)
+                else if(cnt_TX == 'b1111)
                     begin
                 
                         TX_send <= 'b0                                  ;
@@ -39,7 +31,16 @@ module flag_TX #(parameter DATA_WIDTH = 8)
                         cnt_TX  <= 'b0                                  ;
                 
                     end 
+                else if(TX_VLD)
+                    begin
+                
+                        TX_send <= TX_IN                                ;
+                        vld     <= 'b1                                  ;
+                        cnt_TX  <= cnt_TX + 'b1                         ;
+                
+                    end    
             
             end
+     
 
 endmodule

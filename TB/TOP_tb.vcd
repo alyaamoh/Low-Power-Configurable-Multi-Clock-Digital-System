@@ -1,5 +1,5 @@
 $date
-	Wed Sep 07 18:59:10 2022
+	Wed Sep 07 19:44:37 2022
 $end
 $version
 	ModelSim Version 10.5b
@@ -970,6 +970,7 @@ $var wire 1 X RST_REF $end
 $var reg 8 j$ TX_send [7:0] $end
 $var reg 1 k$ vld $end
 $var reg 4 l$ cnt_TX [3:0] $end
+$var reg 1 m$ done $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -1081,6 +1082,7 @@ b0 g$
 b0 j$
 0k$
 b0 l$
+xm$
 b100 !
 b10000 "
 b100 #
