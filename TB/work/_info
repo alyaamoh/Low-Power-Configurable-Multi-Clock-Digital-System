@@ -9,12 +9,12 @@ z2
 cModel Technology
 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/ALL
 vALU_Top
-Z0 !s110 1662566596
+Z0 !s110 1662569929
 !i10b 1
 !s100 lWY_8jjK8eK7dH4I0[deo3
 IFhKTlLz6;6zM8cZ=0T0:O0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/Low-Power-Configurable-Multi-Clock-Digital-System/TB
+Z2 dD:/gam3a/courses/Digital Electronics/Digital Diploma/System/RTL/TB
 w1662127636
 8ALU_Top.v
 FALU_Top.v
@@ -23,9 +23,9 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1662566596.000000
-Z5 !s107 UART_TX.v|UART_RX.V|UART.v|TOP_tb.v|TOP.v|SYST_CTRL.v|strt_check.v|stop_check.v|Shift_unit.v|serializer.v|RST_Sync.v|Register8x16.v|parity_check.v|parity_calc.v|MUX.v|Logic_unit.v|FSM_RX.v|FSM.v|edge_bit_counter.v|deserializer.v|Decoder.v|Data_Sync.v|data_sampling.v|CMP_unit.v|CLK_GATE.v|ClkDiv.v|BIT_SYNC.v|Arithmetic_unit.v|ALU_Top.v|
-Z6 !s90 ALU_Top.v|Arithmetic_unit.v|BIT_SYNC.v|ClkDiv.v|CLK_GATE.v|CMP_unit.v|data_sampling.v|Data_Sync.v|Decoder.v|deserializer.v|edge_bit_counter.v|FSM.v|FSM_RX.v|Logic_unit.v|MUX.v|parity_calc.v|parity_check.v|Register8x16.v|RST_Sync.v|serializer.v|Shift_unit.v|stop_check.v|strt_check.v|SYST_CTRL.v|TOP.v|TOP_tb.v|UART.v|UART_RX.V|UART_TX.v|
+Z4 !s108 1662569928.000000
+Z5 !s107 UART_TX.v|UART_RX.V|UART.v|TOP_tb.v|TOP.v|SYST_CTRL.v|strt_check.v|stop_check.v|Shift_unit.v|serializer.v|RST_Sync.v|Register8x16.v|parity_check.v|parity_calc.v|MUX.v|Logic_unit.v|FSM_RX.v|FSM.v|flag_TX.v|edge_bit_counter.v|deserializer.v|Decoder.v|Data_Sync.v|data_sampling.v|CMP_unit.v|CLK_GATE.v|ClkDiv.v|BIT_SYNC.v|Arithmetic_unit.v|ALU_Top.v|
+Z6 !s90 ALU_Top.v|Arithmetic_unit.v|BIT_SYNC.v|ClkDiv.v|CLK_GATE.v|CMP_unit.v|data_sampling.v|Data_Sync.v|Decoder.v|deserializer.v|edge_bit_counter.v|flag_TX.v|FSM.v|FSM_RX.v|Logic_unit.v|MUX.v|parity_calc.v|parity_check.v|Register8x16.v|RST_Sync.v|serializer.v|Shift_unit.v|stop_check.v|strt_check.v|SYST_CTRL.v|TOP.v|TOP_tb.v|UART.v|UART_RX.V|UART_TX.v|
 !i113 1
 Z7 tCvgOpt 0
 n@a@l@u_@top
@@ -236,14 +236,35 @@ R5
 R6
 !i113 1
 R7
+vflag_TX
+R0
+!i10b 1
+!s100 KHz37M3fMUfbDl6m?k<3V1
+IhfB1ZMnKPbkn=[0kTFJV@0
+R1
+R2
+w1662569897
+8flag_TX.v
+Fflag_TX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+nflag_@t@x
 vFSM
 R0
 !i10b 1
-!s100 g6]Vf32=?@Ghf:nDUgNji0
-Io:n=bPEQYUm[c3P4^Ze;n3
+!s100 DMM<b97hX;85lZfQB=9:d0
+ImWYUWUkY4QeNHb8WV]8Fh2
 R1
 R2
-w1662566580
+w1662566732
 8FSM.v
 FFSM.v
 L0 1
@@ -260,11 +281,11 @@ n@f@s@m
 vFSM_RX
 R0
 !i10b 1
-!s100 Jh[g4nbA3jbFL6L37DRYd3
-I9LXn]DkJZ46=N9LYT6i6D0
+!s100 n1:GE8FRzzzOkh1JhN@Vg2
+I[P4dUGi?o7h]3X?Kh9gF21
 R1
 R2
-w1662491219
+w1662478156
 8FSM_RX.v
 FFSM_RX.v
 L0 1
@@ -507,11 +528,11 @@ n@s@y@s@t_@c@t@r@l
 vTOP
 R0
 !i10b 1
-!s100 [UV8T05[?8H6H:o34iLAe1
-I[e^Qi@1eM`fV=j4gNOEPz2
+!s100 c<bP?Mdlo2?gi@dJWcgn41
+IB=ijLaS:9dZ0WznNzL2_12
 R1
 R2
-w1662491134
+w1662569924
 8TOP.v
 FTOP.v
 L0 1

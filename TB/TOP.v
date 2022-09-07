@@ -48,9 +48,8 @@ module TOP #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, ALU
     wire      [DATA_WIDTH    -1 : 0]        Operand_A               ;
     wire      [DATA_WIDTH    -1 : 0]        Operand_B               ;
 
-    reg       [DATA_WIDTH    -1 : 0]        TX_send                 ;
-    reg                                     vld                     ;
-    reg       [3:0]                         cnt_TX                  ;
+    wire       [DATA_WIDTH    -1 : 0]        TX_send                ;
+    wire                                     vld                    ;
 
 /*****************************************************************************************/
 /*****************************************************************************************/
@@ -245,38 +244,18 @@ module TOP #(parameter ADDRESS_WIDTH = 4, REG_DEPTH = 16, ALU_FUN_WIDTH = 4, ALU
     );
 
 /*****************************************************************************************/
-/***************Raise the Data & Valid for a certain time to meet the edge****************/
+/*****************************************************************************************/
 
-    always@(posedge REF_CLK or negedge RST_REF)
-        begin
-
-            if(!RST_UART)
-                begin
-            
-                    TX_send <= 'b0                                  ;
-                    vld     <= 'b0                                  ;
-                    cnt_TX  <= 'b0                                  ;
-            
-                end
-            else if(TX_VLD)
-                begin
-            
-                    TX_send <= TX_IN                                ;
-                    vld     <= 'b1                                  ;
-                    cnt_TX  <= cnt_TX + 'b1                         ;
-            
-                end
-            
-            if(cnt_TX == 'b1111)
-                begin
-            
-                    TX_send <= 'b0                                  ;
-                    vld     <= 'b0                                  ;
-                    cnt_TX  <= 'b0                                  ;
-            
-                end 
-        
-        end
-
+    flag_TX #(.DATA_WIDTH(DATA_WIDTH))
+    flag
+    (
+        .TX_IN(TX_IN)                                               ,
+        .TX_VLD(TX_VLD)                                             ,
+        .REF_CLK(REF_CLK)                                           ,
+        .RST_REF(RST_REF)                                           ,
+                            
+        .TX_send(TX_send)                                           ,
+        .vld(vld)
+    );
 
 endmodule

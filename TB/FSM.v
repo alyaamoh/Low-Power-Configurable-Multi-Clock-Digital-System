@@ -33,7 +33,7 @@ module FSM
             
                 if (!RST)
                 
-                    current_state 	<= 	IDLE							;
+                    next_state 		<= 	IDLE							;
                 
                 else
                 
