@@ -1,5 +1,5 @@
 $date
-	Tue Sep 06 20:47:57 2022
+	Wed Sep 07 18:03:33 2022
 $end
 $version
 	ModelSim Version 10.5b
@@ -567,10 +567,10 @@ $var reg 1 !# par_bit $end
 $upscope $end
 
 $scope module fsm $end
-$var parameter 4 "# IDLE $end
-$var parameter 4 ## Start $end
-$var parameter 4 $# DATA $end
-$var parameter 4 %# Parity $end
+$var parameter 2 "# IDLE $end
+$var parameter 2 ## Start $end
+$var parameter 2 $# DATA $end
+$var parameter 2 %# Parity $end
 $var wire 1 k DATA_VALID $end
 $var wire 1 N PAR_EN $end
 $var wire 1 q" ser_done $end
@@ -579,8 +579,8 @@ $var wire 1 W RST $end
 $var reg 1 &# ser_en $end
 $var reg 2 '# mux_sel [1:0] $end
 $var reg 1 (# Busy $end
-$var reg 5 )# current_state [4:0] $end
-$var reg 5 *# next_state [4:0] $end
+$var reg 3 )# current_state [2:0] $end
+$var reg 3 *# next_state [2:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -1012,8 +1012,8 @@ xm"
 0&#
 b1 '#
 0(#
-bx )#
-b1 *#
+b0 )#
+b0 *#
 b0 >#
 b0 ?#
 0@#
@@ -1107,10 +1107,10 @@ b1000 k"
 b1000 p"
 b1000 z"
 b1000 ~"
-b1 "#
-b10 ##
-b100 $#
-b1000 %#
+b0 "#
+b1 ##
+b10 $#
+b11 %#
 b100 +#
 b100 ,#
 b10000 -#
@@ -1643,7 +1643,6 @@ b1 )"
 1Y
 01
 b1 7
-b1 )#
 0F
 b10 j"
 1b"
@@ -23333,7 +23332,7 @@ b10 w!
 0z!
 1i
 1k
-b10 *#
+b1 *#
 #40360000
 00
 0E
@@ -23700,10 +23699,10 @@ b1 )"
 1Y
 0v!
 1!#
-b10 )#
+b1 )#
 1t"
 0k
-b100 *#
+b10 *#
 1&#
 b0 '#
 1(#
@@ -24078,7 +24077,7 @@ b1 )"
 1Y
 0y"
 b1 }"
-b100 )#
+b10 )#
 04
 0&#
 b1 '#
@@ -26652,7 +26651,7 @@ b1 )"
 1{"
 b0 }"
 1q"
-b1000 *#
+b11 *#
 0&#
 b1 '#
 0(#
@@ -27025,8 +27024,8 @@ b1 '"
 b1 )"
 1*"
 1Y
-b1000 )#
-b1 *#
+b11 )#
+b0 *#
 b1 '#
 0(#
 b11 '#
@@ -27397,7 +27396,7 @@ b1 )"
 1*"
 1Y
 1y"
-b1 )#
+b0 )#
 14
 b1 '#
 0(#
