@@ -10,7 +10,7 @@ module flag_TX #(parameter DATA_WIDTH = 8)
 );
 
     reg       [3:0]                         cnt_TX                      ;
-    reg                                     done;
+    reg                                     done                        ;
 
     always@(posedge REF_CLK or negedge RST_REF)
             begin
